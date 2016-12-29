@@ -1,0 +1,1846 @@
+total 168
+-rw-r--r--    1 martinpettersson  staff  40173 Dec 29 23:50 configure.ac
+-rw-r--r--    1 martinpettersson  staff   9991 Dec 29 23:50 CONTRIBUTING.md
+-rw-r--r--    1 martinpettersson  staff   8531 Dec 29 23:50 Makefile.am
+drwxr-xr-x  151 martinpettersson  staff   5134 Dec 29 23:50 src
+-rw-r--r--    1 martinpettersson  staff   3614 Dec 29 23:50 README.md
+drwxr-xr-x   33 martinpettersson  staff   1122 Dec 29 23:50 doc
+-rw-r--r--    1 martinpettersson  staff   1099 Dec 29 23:50 COPYING
+drwxr-xr-x   23 martinpettersson  staff    782 Dec 29 23:50 contrib
+-rwxr-xr-x    1 martinpettersson  staff    527 Dec 29 23:50 autogen.sh
+drwxr-xr-x   15 martinpettersson  staff    510 Dec 29 23:50 depends
+-rw-r--r--    1 martinpettersson  staff    295 Dec 29 23:50 libbitcoinconsensus.pc.in
+drwxr-xr-x    8 martinpettersson  staff    272 Dec 29 23:50 share
+drwxr-xr-x    5 martinpettersson  staff    170 Dec 29 23:50 qa
+-rw-r--r--    1 martinpettersson  staff    161 Dec 29 23:50 INSTALL.md
+drwxr-xr-x    3 martinpettersson  staff    102 Dec 29 23:50 build-aux
+-rw-r--r--    1 martinpettersson  staff      0 Dec 29 23:51 lsoutput.log
+
+./src:
+total 3632
+-rw-r--r--    1 martinpettersson  staff  181968 Dec 29 23:50 validation.cpp
+-rw-r--r--    1 martinpettersson  staff  138269 Dec 29 23:50 net_processing.cpp
+-rw-r--r--    1 martinpettersson  staff   90128 Dec 29 23:50 chainparamsseeds.h
+-rw-r--r--    1 martinpettersson  staff   85751 Dec 29 23:50 net.cpp
+-rw-r--r--    1 martinpettersson  staff   76287 Dec 29 23:50 init.cpp
+-rw-r--r--    1 martinpettersson  staff   44855 Dec 29 23:50 txmempool.cpp
+-rw-r--r--    1 martinpettersson  staff   43045 Dec 29 23:50 tinyformat.h
+-rw-r--r--    1 martinpettersson  staff   29791 Dec 29 23:50 txmempool.h
+-rw-r--r--    1 martinpettersson  staff   27480 Dec 29 23:50 validation.h
+-rw-r--r--    1 martinpettersson  staff   27387 Dec 29 23:50 serialize.h
+-rw-r--r--    1 martinpettersson  staff   27229 Dec 29 23:50 torcontrol.cpp
+-rw-r--r--    1 martinpettersson  staff   25904 Dec 29 23:50 net.h
+-rw-r--r--    1 martinpettersson  staff   25214 Dec 29 23:50 util.cpp
+-rw-r--r--    1 martinpettersson  staff   23931 Dec 29 23:50 miner.cpp
+-rw-r--r--    1 martinpettersson  staff   23634 Dec 29 23:50 netbase.cpp
+-rw-r--r--    1 martinpettersson  staff   23263 Dec 29 23:50 bitcoin-tx.cpp
+-rw-r--r--    1 martinpettersson  staff   22555 Dec 29 23:50 utilstrencodings.cpp
+-rw-r--r--    1 martinpettersson  staff   21122 Dec 29 23:50 httpserver.cpp
+-rw-r--r--    1 martinpettersson  staff   20909 Dec 29 23:50 streams.h
+-rw-r--r--    1 martinpettersson  staff   20696 Dec 29 23:50 rest.cpp
+-rw-r--r--    1 martinpettersson  staff   19141 Dec 29 23:50 addrman.h
+-rw-r--r--    1 martinpettersson  staff   19122 Dec 29 23:50 netaddress.cpp
+-rw-r--r--    1 martinpettersson  staff   18235 Dec 29 23:50 chainparams.cpp
+-rw-r--r--    1 martinpettersson  staff   16882 Dec 29 23:50 prevector.h
+-rw-r--r--    1 martinpettersson  staff   16881 Dec 29 23:50 cuckoocache.h
+-rw-r--r--    1 martinpettersson  staff   16638 Dec 29 23:50 coins.h
+-rw-r--r--    1 martinpettersson  staff   16437 Dec 29 23:50 addrman.cpp
+-rw-r--r--    1 martinpettersson  staff   14825 Dec 29 23:50 chain.h
+-rw-r--r--    1 martinpettersson  staff   14377 Dec 29 23:50 Makefile.qt.include
+-rw-r--r--    1 martinpettersson  staff   14022 Dec 29 23:50 bitcoin-cli.cpp
+-rw-r--r--    1 martinpettersson  staff   13019 Dec 29 23:50 Makefile.am
+-rw-r--r--    1 martinpettersson  staff   12548 Dec 29 23:50 protocol.h
+-rw-r--r--    1 martinpettersson  staff   12194 Dec 29 23:50 key.cpp
+-rw-r--r--    1 martinpettersson  staff   11816 Dec 29 23:50 coins.cpp
+-rw-r--r--    1 martinpettersson  staff   11074 Dec 29 23:50 bloom.cpp
+-rw-r--r--    1 martinpettersson  staff    9330 Dec 29 23:50 base58.cpp
+-rw-r--r--    1 martinpettersson  staff    9220 Dec 29 23:50 pubkey.cpp
+-rw-r--r--    1 martinpettersson  staff    8649 Dec 29 23:50 blockencodings.cpp
+-rw-r--r--    1 martinpettersson  staff    8575 Dec 29 23:50 arith_uint256.h
+-rw-r--r--    1 martinpettersson  staff    8485 Dec 29 23:50 httprpc.cpp
+-rw-r--r--    1 martinpettersson  staff    8353 Dec 29 23:50 dbwrapper.h
+-rw-r--r--    1 martinpettersson  staff    8047 Dec 29 23:50 core_write.cpp
+-rw-r--r--    1 martinpettersson  staff    7663 Dec 29 23:50 miner.h
+-rw-r--r--    1 martinpettersson  staff    7539 Dec 29 23:50 sync.h
+-rw-r--r--    1 martinpettersson  staff    7394 Dec 29 23:50 versionbits.cpp
+-rw-r--r--    1 martinpettersson  staff    7344 Dec 29 23:50 arith_uint256.cpp
+-rw-r--r--    1 martinpettersson  staff    7295 Dec 29 23:50 txdb.cpp
+-rw-r--r--    1 martinpettersson  staff    7055 Dec 29 23:50 addrdb.cpp
+-rw-r--r--    1 martinpettersson  staff    6982 Dec 29 23:50 pubkey.h
+-rw-r--r--    1 martinpettersson  staff    6975 Dec 29 23:50 util.h
+-rw-r--r--    1 martinpettersson  staff    6906 Dec 29 23:50 blockencodings.h
+-rw-r--r--    1 martinpettersson  staff    6895 Dec 29 23:50 sync.cpp
+-rw-r--r--    1 martinpettersson  staff    6876 Dec 29 23:50 Makefile.leveldb.include
+-rw-r--r--    1 martinpettersson  staff    6734 Dec 29 23:50 merkleblock.cpp
+-rw-r--r--    1 martinpettersson  staff    6624 Dec 29 23:50 checkqueue.h
+-rw-r--r--    1 martinpettersson  staff    6483 Dec 29 23:50 hash.h
+-rw-r--r--    1 martinpettersson  staff    6357 Dec 29 23:50 key.h
+-rw-r--r--    1 martinpettersson  staff    6268 Dec 29 23:50 bitcoind.cpp
+-rw-r--r--    1 martinpettersson  staff    6117 Dec 29 23:50 netaddress.h
+-rw-r--r--    1 martinpettersson  staff    5922 Dec 29 23:50 Makefile.test.include
+-rw-r--r--    1 martinpettersson  staff    5741 Dec 29 23:50 base58.h
+-rw-r--r--    1 martinpettersson  staff    5705 Dec 29 23:50 merkleblock.h
+-rw-r--r--    1 martinpettersson  staff    5444 Dec 29 23:50 utilstrencodings.h
+-rw-r--r--    1 martinpettersson  staff    5299 Dec 29 23:50 bloom.h
+-rw-r--r--    1 martinpettersson  staff    5282 Dec 29 23:50 memusage.h
+-rw-r--r--    1 martinpettersson  staff    5216 Dec 29 23:50 protocol.cpp
+-rw-r--r--    1 martinpettersson  staff    5133 Dec 29 23:50 compressor.cpp
+-rw-r--r--    1 martinpettersson  staff    5013 Dec 29 23:50 core_read.cpp
+-rw-r--r--    1 martinpettersson  staff    4988 Dec 29 23:50 random.cpp
+-rw-r--r--    1 martinpettersson  staff    4981 Dec 29 23:50 chain.cpp
+-rw-r--r--    1 martinpettersson  staff    4924 Dec 29 23:50 dbwrapper.cpp
+-rw-r--r--    1 martinpettersson  staff    4763 Dec 29 23:50 hash.cpp
+-rw-r--r--    1 martinpettersson  staff    4699 Dec 29 23:50 ui_interface.h
+-rw-r--r--    1 martinpettersson  staff    4356 Dec 29 23:50 uint256.h
+-rw-r--r--    1 martinpettersson  staff    4327 Dec 29 23:50 scheduler.cpp
+-rw-r--r--    1 martinpettersson  staff    4219 Dec 29 23:50 chainparams.h
+-rw-r--r--    1 martinpettersson  staff    4020 Dec 29 23:50 httpserver.h
+-rw-r--r--    1 martinpettersson  staff    3940 Dec 29 23:50 compressor.h
+-rw-r--r--    1 martinpettersson  staff    3928 Dec 29 23:50 txdb.h
+drwxr-xr-x  115 martinpettersson  staff    3910 Dec 29 23:50 qt
+-rw-r--r--    1 martinpettersson  staff    3893 Dec 29 23:50 timedata.cpp
+-rw-r--r--    1 martinpettersson  staff    3808 Dec 29 23:50 clientversion.cpp
+-rw-r--r--    1 martinpettersson  staff    3755 Dec 29 23:50 keystore.h
+-rw-r--r--    1 martinpettersson  staff    3642 Dec 29 23:50 validationinterface.h
+-rw-r--r--    1 martinpettersson  staff    3443 Dec 29 23:50 limitedmap.h
+-rw-r--r--    1 martinpettersson  staff    3321 Dec 29 23:50 pow.cpp
+-rw-r--r--    1 martinpettersson  staff    3022 Dec 29 23:50 keystore.cpp
+-rw-r--r--    1 martinpettersson  staff    2999 Dec 29 23:50 checkpoints.cpp
+-rw-r--r--    1 martinpettersson  staff    2989 Dec 29 23:50 validationinterface.cpp
+-rw-r--r--    1 martinpettersson  staff    2927 Dec 29 23:50 amount.h
+-rw-r--r--    1 martinpettersson  staff    2903 Dec 29 23:50 versionbits.h
+-rw-r--r--    1 martinpettersson  staff    2841 Dec 29 23:50 scheduler.h
+-rw-r--r--    1 martinpettersson  staff    2811 Dec 29 23:50 warnings.cpp
+-rw-r--r--    1 martinpettersson  staff    2736 Dec 29 23:50 chainparamsbase.cpp
+-rw-r--r--    1 martinpettersson  staff    2579 Dec 29 23:50 netbase.h
+-rw-r--r--    1 martinpettersson  staff    2529 Dec 29 23:50 indirectmap.h
+-rw-r--r--    1 martinpettersson  staff    2517 Dec 29 23:50 threadsafety.h
+-rw-r--r--    1 martinpettersson  staff    2494 Dec 29 23:50 undo.h
+-rw-r--r--    1 martinpettersson  staff    2453 Dec 29 23:50 core_memusage.h
+-rw-r--r--    1 martinpettersson  staff    2350 Dec 29 23:50 uint256.cpp
+-rw-r--r--    1 martinpettersson  staff    2285 Dec 29 23:50 Makefile.bench.include
+drwxr-xr-x   66 martinpettersson  staff    2244 Dec 29 23:50 test
+-rw-r--r--    1 martinpettersson  staff    2231 Dec 29 23:50 utiltime.cpp
+-rw-r--r--    1 martinpettersson  staff    2226 Dec 29 23:50 compat.h
+-rw-r--r--    1 martinpettersson  staff    2219 Dec 29 23:50 Makefile.qttest.include
+-rw-r--r--    1 martinpettersson  staff    2182 Dec 29 23:50 addrdb.h
+-rw-r--r--    1 martinpettersson  staff    2065 Dec 29 23:50 init.h
+-rw-r--r--    1 martinpettersson  staff    2051 Dec 29 23:50 clientversion.h
+-rw-r--r--    1 martinpettersson  staff    2040 Dec 29 23:50 utilmoneystr.cpp
+-rw-r--r--    1 martinpettersson  staff    1800 Dec 29 23:50 noui.cpp
+-rw-r--r--    1 martinpettersson  staff    1792 Dec 29 23:50 timedata.h
+-rw-r--r--    1 martinpettersson  staff    1766 Dec 29 23:50 chainparamsbase.h
+-rw-r--r--    1 martinpettersson  staff    1753 Dec 29 23:50 net_processing.h
+-rw-r--r--    1 martinpettersson  staff    1730 Dec 29 23:50 version.h
+-rw-r--r--    1 martinpettersson  staff    1620 Dec 29 23:50 bitcoin-cli-res.rc
+-rw-r--r--    1 martinpettersson  staff    1618 Dec 29 23:50 bitcoin-tx-res.rc
+-rw-r--r--    1 martinpettersson  staff    1607 Dec 29 23:50 bitcoind-res.rc
+-rw-r--r--    1 martinpettersson  staff    1280 Dec 29 23:50 random.h
+-rw-r--r--    1 martinpettersson  staff    1274 Dec 29 23:50 core_io.h
+-rw-r--r--    1 martinpettersson  staff    1141 Dec 29 23:50 amount.cpp
+-rw-r--r--    1 martinpettersson  staff    1009 Dec 29 23:50 netmessagemaker.h
+-rw-r--r--    1 martinpettersson  staff     834 Dec 29 23:50 pow.h
+-rw-r--r--    1 martinpettersson  staff     833 Dec 29 23:50 httprpc.h
+-rw-r--r--    1 martinpettersson  staff     827 Dec 29 23:50 ui_interface.cpp
+-rw-r--r--    1 martinpettersson  staff     771 Dec 29 23:50 checkpoints.h
+-rw-r--r--    1 martinpettersson  staff     763 Dec 29 23:50 reverselock.h
+drwxr-xr-x   21 martinpettersson  staff     714 Dec 29 23:50 leveldb
+-rw-r--r--    1 martinpettersson  staff     675 Dec 29 23:50 warnings.h
+drwxr-xr-x   19 martinpettersson  staff     646 Dec 29 23:50 bench
+drwxr-xr-x   18 martinpettersson  staff     612 Dec 29 23:50 crypto
+drwxr-xr-x   18 martinpettersson  staff     612 Dec 29 23:50 script
+-rw-r--r--    1 martinpettersson  staff     597 Dec 29 23:50 utiltime.h
+-rw-r--r--    1 martinpettersson  staff     593 Dec 29 23:50 utilmoneystr.h
+-rw-r--r--    1 martinpettersson  staff     585 Dec 29 23:50 torcontrol.h
+drwxr-xr-x   17 martinpettersson  staff     578 Dec 29 23:50 secp256k1
+drwxr-xr-x   16 martinpettersson  staff     544 Dec 29 23:50 univalue
+drwxr-xr-x   15 martinpettersson  staff     510 Dec 29 23:50 wallet
+drwxr-xr-x   14 martinpettersson  staff     476 Dec 29 23:50 rpc
+drwxr-xr-x    9 martinpettersson  staff     306 Dec 29 23:50 compat
+drwxr-xr-x    9 martinpettersson  staff     306 Dec 29 23:50 zmq
+-rw-r--r--    1 martinpettersson  staff     296 Dec 29 23:50 noui.h
+drwxr-xr-x    8 martinpettersson  staff     272 Dec 29 23:50 policy
+drwxr-xr-x    7 martinpettersson  staff     238 Dec 29 23:50 consensus
+drwxr-xr-x    7 martinpettersson  staff     238 Dec 29 23:50 support
+drwxr-xr-x    6 martinpettersson  staff     204 Dec 29 23:50 primitives
+drwxr-xr-x    3 martinpettersson  staff     102 Dec 29 23:50 config
+drwxr-xr-x    3 martinpettersson  staff     102 Dec 29 23:50 obj
+drwxr-xr-x    3 martinpettersson  staff     102 Dec 29 23:50 obj-test
+
+./src/qt:
+total 1960
+-rw-r--r--   1 martinpettersson  staff  44499 Dec 29 23:50 bitcoingui.cpp
+-rw-r--r--   1 martinpettersson  staff  41874 Dec 29 23:50 rpcconsole.cpp
+-rw-r--r--   1 martinpettersson  staff  33906 Dec 29 23:50 sendcoinsdialog.cpp
+-rw-r--r--   1 martinpettersson  staff  32275 Dec 29 23:50 guiutil.cpp
+-rw-r--r--   1 martinpettersson  staff  31508 Dec 29 23:50 coincontroldialog.cpp
+-rw-r--r--   1 martinpettersson  staff  28078 Dec 29 23:50 paymentserver.cpp
+-rw-r--r--   1 martinpettersson  staff  27449 Dec 29 23:50 transactiontablemodel.cpp
+-rw-r--r--   1 martinpettersson  staff  23269 Dec 29 23:50 walletmodel.cpp
+-rw-r--r--   1 martinpettersson  staff  23170 Dec 29 23:50 bitcoin.cpp
+-rw-r--r--   1 martinpettersson  staff  22593 Dec 29 23:50 bitcoinstrings.cpp
+-rw-r--r--   1 martinpettersson  staff  21803 Dec 29 23:50 transactionview.cpp
+-rw-r--r--   1 martinpettersson  staff  17140 Dec 29 23:50 optionsmodel.cpp
+-rw-r--r--   1 martinpettersson  staff  14370 Dec 29 23:50 addresstablemodel.cpp
+-rw-r--r--   1 martinpettersson  staff  13222 Dec 29 23:50 transactiondesc.cpp
+-rw-r--r--   1 martinpettersson  staff  12404 Dec 29 23:50 optionsdialog.cpp
+-rw-r--r--   1 martinpettersson  staff  11423 Dec 29 23:50 overviewpage.cpp
+-rw-r--r--   1 martinpettersson  staff  11190 Dec 29 23:50 walletview.cpp
+-rw-r--r--   1 martinpettersson  staff  10577 Dec 29 23:50 notificator.cpp
+-rw-r--r--   1 martinpettersson  staff  10373 Dec 29 23:50 askpassphrasedialog.cpp
+-rw-r--r--   1 martinpettersson  staff  10311 Dec 29 23:50 receivecoinsdialog.cpp
+-rw-r--r--   1 martinpettersson  staff  10122 Dec 29 23:50 walletmodel.h
+-rw-r--r--   1 martinpettersson  staff  10119 Dec 29 23:50 addressbookpage.cpp
+-rw-r--r--   1 martinpettersson  staff   9697 Dec 29 23:50 intro.cpp
+-rw-r--r--   1 martinpettersson  staff   9362 Dec 29 23:50 signverifymessagedialog.cpp
+-rw-r--r--   1 martinpettersson  staff   9288 Dec 29 23:50 clientmodel.cpp
+-rw-r--r--   1 martinpettersson  staff   9260 Dec 29 23:50 guiutil.h
+-rw-r--r--   1 martinpettersson  staff   9181 Dec 29 23:50 bitcoingui.h
+-rw-r--r--   1 martinpettersson  staff   8633 Dec 29 23:50 transactionrecord.cpp
+-rw-r--r--   1 martinpettersson  staff   8227 Dec 29 23:50 sendcoinsentry.cpp
+-rw-r--r--   1 martinpettersson  staff   8215 Dec 29 23:50 bitcoinamountfield.cpp
+-rw-r--r--   1 martinpettersson  staff   8037 Dec 29 23:50 paymentrequestplus.cpp
+-rw-r--r--   1 martinpettersson  staff   7324 Dec 29 23:50 recentrequeststablemodel.cpp
+-rw-r--r--   1 martinpettersson  staff   7197 Dec 29 23:50 utilitydialog.cpp
+-rw-r--r--   1 martinpettersson  staff   7142 Dec 29 23:50 splashscreen.cpp
+-rw-r--r--   1 martinpettersson  staff   6462 Dec 29 23:50 peertablemodel.cpp
+-rw-r--r--   1 martinpettersson  staff   6072 Dec 29 23:50 receiverequestdialog.cpp
+-rw-r--r--   1 martinpettersson  staff   5898 Dec 29 23:50 bitcoin.qrc
+-rw-r--r--   1 martinpettersson  staff   5606 Dec 29 23:50 bitcoinunits.cpp
+-rw-r--r--   1 martinpettersson  staff   5581 Dec 29 23:50 walletframe.cpp
+-rw-r--r--   1 martinpettersson  staff   5577 Dec 29 23:50 modaloverlay.cpp
+-rw-r--r--   1 martinpettersson  staff   5055 Dec 29 23:50 paymentserver.h
+-rw-r--r--   1 martinpettersson  staff   4884 Dec 29 23:50 bitcoin_locale.qrc
+-rw-r--r--   1 martinpettersson  staff   4838 Dec 29 23:50 trafficgraphwidget.cpp
+-rw-r--r--   1 martinpettersson  staff   4792 Dec 29 23:50 rpcconsole.h
+-rw-r--r--   1 martinpettersson  staff   4550 Dec 29 23:50 bantablemodel.cpp
+-rw-r--r--   1 martinpettersson  staff   4478 Dec 29 23:50 transactionrecord.h
+-rw-r--r--   1 martinpettersson  staff   4469 Dec 29 23:50 walletview.h
+-rw-r--r--   1 martinpettersson  staff   4320 Dec 29 23:50 transactiontablemodel.h
+-rw-r--r--   1 martinpettersson  staff   4316 Dec 29 23:50 platformstyle.cpp
+-rw-r--r--   1 martinpettersson  staff   3991 Dec 29 23:50 bitcoinunits.h
+-rw-r--r--   1 martinpettersson  staff   3947 Dec 29 23:50 editaddressdialog.cpp
+-rw-r--r--   1 martinpettersson  staff   3846 Dec 29 23:50 macdockiconhandler.mm
+-rw-r--r--   1 martinpettersson  staff   3634 Dec 29 23:50 sendcoinsdialog.h
+-rw-r--r--   1 martinpettersson  staff   3498 Dec 29 23:50 clientmodel.h
+-rw-r--r--   1 martinpettersson  staff   3429 Dec 29 23:50 transactionfilterproxy.cpp
+-rw-r--r--   1 martinpettersson  staff   3421 Dec 29 23:50 optionsmodel.h
+-rw-r--r--   1 martinpettersson  staff   3394 Dec 29 23:50 macnotificationhandler.mm
+-rw-r--r--   1 martinpettersson  staff   3275 Dec 29 23:50 addresstablemodel.h
+-rw-r--r--   1 martinpettersson  staff   3254 Dec 29 23:50 recentrequeststablemodel.h
+-rw-r--r--   1 martinpettersson  staff   3020 Dec 29 23:50 networkstyle.cpp
+drwxr-xr-x  87 martinpettersson  staff   2958 Dec 29 23:50 locale
+-rw-r--r--   1 martinpettersson  staff   2940 Dec 29 23:50 transactionview.h
+-rw-r--r--   1 martinpettersson  staff   2878 Dec 29 23:50 notificator.h
+-rw-r--r--   1 martinpettersson  staff   2845 Dec 29 23:50 walletframe.h
+-rw-r--r--   1 martinpettersson  staff   2802 Dec 29 23:50 coincontroldialog.h
+-rw-r--r--   1 martinpettersson  staff   2602 Dec 29 23:50 bitcoinaddressvalidator.cpp
+-rw-r--r--   1 martinpettersson  staff   2601 Dec 29 23:50 walletmodeltransaction.cpp
+-rw-r--r--   1 martinpettersson  staff   2525 Dec 29 23:50 qvalidatedlineedit.cpp
+-rw-r--r--   1 martinpettersson  staff   2505 Dec 29 23:50 addressbookpage.h
+-rw-r--r--   1 martinpettersson  staff   2449 Dec 29 23:50 winshutdownmonitor.cpp
+-rw-r--r--   1 martinpettersson  staff   2328 Dec 29 23:50 paymentrequest.proto
+-rw-r--r--   1 martinpettersson  staff   2154 Dec 29 23:50 peertablemodel.h
+-rw-r--r--   1 martinpettersson  staff   2045 Dec 29 23:50 receivecoinsdialog.h
+-rw-r--r--   1 martinpettersson  staff   2021 Dec 29 23:50 transactionfilterproxy.h
+-rw-r--r--   1 martinpettersson  staff   2005 Dec 29 23:50 guiconstants.h
+-rw-r--r--   1 martinpettersson  staff   2003 Dec 29 23:50 bitcoinamountfield.h
+-rw-r--r--   1 martinpettersson  staff   1929 Dec 29 23:50 overviewpage.h
+-rw-r--r--   1 martinpettersson  staff   1905 Dec 29 23:50 intro.h
+-rw-r--r--   1 martinpettersson  staff   1880 Dec 29 23:50 csvmodelwriter.cpp
+-rw-r--r--   1 martinpettersson  staff   1853 Dec 29 23:50 bantablemodel.h
+-rw-r--r--   1 martinpettersson  staff   1847 Dec 29 23:50 sendcoinsentry.h
+-rw-r--r--   1 martinpettersson  staff   1770 Dec 29 23:50 platformstyle.h
+-rw-r--r--   1 martinpettersson  staff   1660 Dec 29 23:50 optionsdialog.h
+-rw-r--r--   1 martinpettersson  staff   1571 Dec 29 23:50 splashscreen.h
+-rw-r--r--   1 martinpettersson  staff   1462 Dec 29 23:50 receiverequestdialog.h
+-rw-r--r--   1 martinpettersson  staff   1429 Dec 29 23:50 signverifymessagedialog.h
+-rw-r--r--   1 martinpettersson  staff   1293 Dec 29 23:50 askpassphrasedialog.h
+-rw-r--r--   1 martinpettersson  staff   1292 Dec 29 23:50 modaloverlay.h
+-rw-r--r--   1 martinpettersson  staff   1246 Dec 29 23:50 paymentrequestplus.h
+-rw-r--r--   1 martinpettersson  staff   1232 Dec 29 23:50 openuridialog.cpp
+-rw-r--r--   1 martinpettersson  staff   1226 Dec 29 23:50 walletmodeltransaction.h
+-rw-r--r--   1 martinpettersson  staff   1182 Dec 29 23:50 editaddressdialog.h
+-rw-r--r--   1 martinpettersson  staff   1112 Dec 29 23:50 csvmodelwriter.h
+-rw-r--r--   1 martinpettersson  staff   1104 Dec 29 23:50 qvalidatedlineedit.h
+-rw-r--r--   1 martinpettersson  staff   1088 Dec 29 23:50 networkstyle.h
+-rw-r--r--   1 martinpettersson  staff   1084 Dec 29 23:50 coincontroltreewidget.cpp
+-rw-r--r--   1 martinpettersson  staff   1064 Dec 29 23:50 trafficgraphwidget.h
+-rw-r--r--   1 martinpettersson  staff   1043 Dec 29 23:50 utilitydialog.h
+-rw-r--r--   1 martinpettersson  staff    952 Dec 29 23:50 macdockiconhandler.h
+-rw-r--r--   1 martinpettersson  staff    951 Dec 29 23:50 qvaluecombobox.h
+-rw-r--r--   1 martinpettersson  staff    925 Dec 29 23:50 bitcoinaddressvalidator.h
+-rw-r--r--   1 martinpettersson  staff    922 Dec 29 23:50 winshutdownmonitor.h
+-rw-r--r--   1 martinpettersson  staff    896 Dec 29 23:50 macnotificationhandler.h
+-rw-r--r--   1 martinpettersson  staff    790 Dec 29 23:50 transactiondescdialog.cpp
+-rw-r--r--   1 martinpettersson  staff    761 Dec 29 23:50 qvaluecombobox.cpp
+-rw-r--r--   1 martinpettersson  staff    737 Dec 29 23:50 transactiondesc.h
+-rw-r--r--   1 martinpettersson  staff    726 Dec 29 23:50 transactiondescdialog.h
+-rw-r--r--   1 martinpettersson  staff    655 Dec 29 23:50 openuridialog.h
+drwxr-xr-x  19 martinpettersson  staff    646 Dec 29 23:50 forms
+-rw-r--r--   1 martinpettersson  staff    568 Dec 29 23:50 coincontroltreewidget.h
+drwxr-xr-x  13 martinpettersson  staff    442 Dec 29 23:50 test
+-rw-r--r--   1 martinpettersson  staff    244 Dec 29 23:50 Makefile
+drwxr-xr-x   6 martinpettersson  staff    204 Dec 29 23:50 res
+
+./src/qt/locale:
+total 8688
+-rw-r--r--  1 martinpettersson  staff  130260 Dec 29 23:50 bitcoin_ru.ts
+-rw-r--r--  1 martinpettersson  staff  125130 Dec 29 23:50 bitcoin_ja.ts
+-rw-r--r--  1 martinpettersson  staff  121801 Dec 29 23:50 bitcoin_en.ts
+-rw-r--r--  1 martinpettersson  staff  119171 Dec 29 23:50 bitcoin_uk.ts
+-rw-r--r--  1 martinpettersson  staff  117058 Dec 29 23:50 bitcoin_fr.ts
+-rw-r--r--  1 martinpettersson  staff  116680 Dec 29 23:50 bitcoin_tr.ts
+-rw-r--r--  1 martinpettersson  staff  115412 Dec 29 23:50 bitcoin_es.ts
+-rw-r--r--  1 martinpettersson  staff  114210 Dec 29 23:50 bitcoin_da.ts
+-rw-r--r--  1 martinpettersson  staff  113459 Dec 29 23:50 bitcoin_sv.ts
+-rw-r--r--  1 martinpettersson  staff  113270 Dec 29 23:50 bitcoin_nl.ts
+-rw-r--r--  1 martinpettersson  staff  111827 Dec 29 23:50 bitcoin_zh_TW.ts
+-rw-r--r--  1 martinpettersson  staff  111249 Dec 29 23:50 bitcoin_de.ts
+-rw-r--r--  1 martinpettersson  staff  111242 Dec 29 23:50 bitcoin_en_GB.ts
+-rw-r--r--  1 martinpettersson  staff  110214 Dec 29 23:50 bitcoin_pt_BR.ts
+-rw-r--r--  1 martinpettersson  staff  107550 Dec 29 23:50 bitcoin_pt_PT.ts
+-rw-r--r--  1 martinpettersson  staff  105933 Dec 29 23:50 bitcoin_ko_KR.ts
+-rw-r--r--  1 martinpettersson  staff  105750 Dec 29 23:50 bitcoin_pl.ts
+-rw-r--r--  1 martinpettersson  staff  101991 Dec 29 23:50 bitcoin_it.ts
+-rw-r--r--  1 martinpettersson  staff  100951 Dec 29 23:50 bitcoin_cs.ts
+-rw-r--r--  1 martinpettersson  staff   98802 Dec 29 23:50 bitcoin_nb.ts
+-rw-r--r--  1 martinpettersson  staff   94222 Dec 29 23:50 bitcoin_zh_CN.ts
+-rw-r--r--  1 martinpettersson  staff   94008 Dec 29 23:50 bitcoin_ca.ts
+-rw-r--r--  1 martinpettersson  staff   93674 Dec 29 23:50 bitcoin_ca_ES.ts
+-rw-r--r--  1 martinpettersson  staff   91109 Dec 29 23:50 bitcoin_sk.ts
+-rw-r--r--  1 martinpettersson  staff   86097 Dec 29 23:50 bitcoin_ca@valencia.ts
+-rw-r--r--  1 martinpettersson  staff   84243 Dec 29 23:50 bitcoin_fi.ts
+-rw-r--r--  1 martinpettersson  staff   76665 Dec 29 23:50 bitcoin_sl_SI.ts
+-rw-r--r--  1 martinpettersson  staff   73596 Dec 29 23:50 bitcoin_ro_RO.ts
+-rw-r--r--  1 martinpettersson  staff   71426 Dec 29 23:50 bitcoin_he.ts
+-rw-r--r--  1 martinpettersson  staff   71357 Dec 29 23:50 bitcoin_el_GR.ts
+-rw-r--r--  1 martinpettersson  staff   65921 Dec 29 23:50 bitcoin_ka.ts
+-rw-r--r--  1 martinpettersson  staff   60209 Dec 29 23:50 bitcoin_bg.ts
+-rw-r--r--  1 martinpettersson  staff   56515 Dec 29 23:50 bitcoin_id_ID.ts
+-rw-r--r--  1 martinpettersson  staff   52204 Dec 29 23:50 bitcoin_fa.ts
+-rw-r--r--  1 martinpettersson  staff   51469 Dec 29 23:50 bitcoin_hu.ts
+-rw-r--r--  1 martinpettersson  staff   49416 Dec 29 23:50 bitcoin_eo.ts
+-rw-r--r--  1 martinpettersson  staff   48148 Dec 29 23:50 bitcoin_fr_FR.ts
+-rw-r--r--  1 martinpettersson  staff   47785 Dec 29 23:50 bitcoin_uz@Cyrl.ts
+-rw-r--r--  1 martinpettersson  staff   47770 Dec 29 23:50 bitcoin_es_DO.ts
+-rw-r--r--  1 martinpettersson  staff   43528 Dec 29 23:50 bitcoin_gl.ts
+-rw-r--r--  1 martinpettersson  staff   42063 Dec 29 23:50 bitcoin_lv_LV.ts
+-rw-r--r--  1 martinpettersson  staff   41977 Dec 29 23:50 bitcoin_ar.ts
+-rw-r--r--  1 martinpettersson  staff   40880 Dec 29 23:50 bitcoin_th_TH.ts
+-rw-r--r--  1 martinpettersson  staff   36333 Dec 29 23:50 bitcoin_hr.ts
+-rw-r--r--  1 martinpettersson  staff   35936 Dec 29 23:50 bitcoin_et.ts
+-rw-r--r--  1 martinpettersson  staff   31482 Dec 29 23:50 bitcoin_la.ts
+-rw-r--r--  1 martinpettersson  staff   31136 Dec 29 23:50 bitcoin_lt.ts
+-rw-r--r--  1 martinpettersson  staff   30943 Dec 29 23:50 bitcoin_be_BY.ts
+-rw-r--r--  1 martinpettersson  staff   28958 Dec 29 23:50 bitcoin_pam.ts
+-rw-r--r--  1 martinpettersson  staff   25997 Dec 29 23:50 bitcoin_es_CL.ts
+-rw-r--r--  1 martinpettersson  staff   21610 Dec 29 23:50 bitcoin_es_VE.ts
+-rw-r--r--  1 martinpettersson  staff   19784 Dec 29 23:50 bitcoin_fa_IR.ts
+-rw-r--r--  1 martinpettersson  staff   19744 Dec 29 23:50 bitcoin_ta.ts
+-rw-r--r--  1 martinpettersson  staff   19391 Dec 29 23:50 bitcoin_es_MX.ts
+-rw-r--r--  1 martinpettersson  staff   18554 Dec 29 23:50 bitcoin_mn.ts
+-rw-r--r--  1 martinpettersson  staff   17583 Dec 29 23:50 bitcoin_mk_MK.ts
+-rw-r--r--  1 martinpettersson  staff   14088 Dec 29 23:50 bitcoin_vi_VN.ts
+-rw-r--r--  1 martinpettersson  staff   13804 Dec 29 23:50 bitcoin_cy.ts
+-rw-r--r--  1 martinpettersson  staff   13713 Dec 29 23:50 bitcoin_hi_IN.ts
+-rw-r--r--  1 martinpettersson  staff   12455 Dec 29 23:50 bitcoin_sq.ts
+-rw-r--r--  1 martinpettersson  staff   12266 Dec 29 23:50 bitcoin_sr.ts
+-rw-r--r--  1 martinpettersson  staff   12192 Dec 29 23:50 bitcoin_es_UY.ts
+-rw-r--r--  1 martinpettersson  staff   10545 Dec 29 23:50 bitcoin_eu_ES.ts
+-rw-r--r--  1 martinpettersson  staff    8861 Dec 29 23:50 bitcoin_cs_CZ.ts
+-rw-r--r--  1 martinpettersson  staff    8847 Dec 29 23:50 bitcoin_af_ZA.ts
+-rw-r--r--  1 martinpettersson  staff    8639 Dec 29 23:50 bitcoin_kk_KZ.ts
+-rw-r--r--  1 martinpettersson  staff    8438 Dec 29 23:50 bitcoin_af.ts
+-rw-r--r--  1 martinpettersson  staff    8301 Dec 29 23:50 bitcoin_es_CO.ts
+-rw-r--r--  1 martinpettersson  staff    7755 Dec 29 23:50 bitcoin_zh_HK.ts
+-rw-r--r--  1 martinpettersson  staff    7302 Dec 29 23:50 bitcoin_bg_BG.ts
+-rw-r--r--  1 martinpettersson  staff    6991 Dec 29 23:50 bitcoin_ku_IQ.ts
+-rw-r--r--  1 martinpettersson  staff    6797 Dec 29 23:50 bitcoin_es_ES.ts
+-rw-r--r--  1 martinpettersson  staff    6607 Dec 29 23:50 bitcoin_ky.ts
+-rw-r--r--  1 martinpettersson  staff    5682 Dec 29 23:50 bitcoin_ru_RU.ts
+-rw-r--r--  1 martinpettersson  staff    5484 Dec 29 23:50 bitcoin_sr@latin.ts
+-rw-r--r--  1 martinpettersson  staff    4959 Dec 29 23:50 bitcoin_ur_PK.ts
+-rw-r--r--  1 martinpettersson  staff    4605 Dec 29 23:50 bitcoin_el.ts
+-rw-r--r--  1 martinpettersson  staff    3602 Dec 29 23:50 bitcoin_it_IT.ts
+-rw-r--r--  1 martinpettersson  staff    3552 Dec 29 23:50 bitcoin_es_AR.ts
+-rw-r--r--  1 martinpettersson  staff    3463 Dec 29 23:50 bitcoin_ro.ts
+-rw-r--r--  1 martinpettersson  staff    3447 Dec 29 23:50 bitcoin_zh.ts
+-rw-r--r--  1 martinpettersson  staff    3422 Dec 29 23:50 bitcoin_tr_TR.ts
+-rw-r--r--  1 martinpettersson  staff    3257 Dec 29 23:50 bitcoin_ms_MY.ts
+-rw-r--r--  1 martinpettersson  staff    3064 Dec 29 23:50 bitcoin_vi.ts
+-rw-r--r--  1 martinpettersson  staff    2827 Dec 29 23:50 bitcoin_fr_CA.ts
+
+./src/qt/forms:
+total 576
+-rw-r--r--  1 martinpettersson  staff  48811 Dec 29 23:50 debugwindow.ui
+-rw-r--r--  1 martinpettersson  staff  47372 Dec 29 23:50 sendcoinsdialog.ui
+-rw-r--r--  1 martinpettersson  staff  34334 Dec 29 23:50 sendcoinsentry.ui
+-rw-r--r--  1 martinpettersson  staff  25229 Dec 29 23:50 optionsdialog.ui
+-rw-r--r--  1 martinpettersson  staff  19796 Dec 29 23:50 overviewpage.ui
+-rw-r--r--  1 martinpettersson  staff  14788 Dec 29 23:50 coincontroldialog.ui
+-rw-r--r--  1 martinpettersson  staff  12987 Dec 29 23:50 signverifymessagedialog.ui
+-rw-r--r--  1 martinpettersson  staff  12338 Dec 29 23:50 modaloverlay.ui
+-rw-r--r--  1 martinpettersson  staff  11273 Dec 29 23:50 receivecoinsdialog.ui
+-rw-r--r--  1 martinpettersson  staff   7232 Dec 29 23:50 intro.ui
+-rw-r--r--  1 martinpettersson  staff   5076 Dec 29 23:50 helpmessagedialog.ui
+-rw-r--r--  1 martinpettersson  staff   4607 Dec 29 23:50 addressbookpage.ui
+-rw-r--r--  1 martinpettersson  staff   4224 Dec 29 23:50 receiverequestdialog.ui
+-rw-r--r--  1 martinpettersson  staff   4087 Dec 29 23:50 askpassphrasedialog.ui
+-rw-r--r--  1 martinpettersson  staff   2915 Dec 29 23:50 editaddressdialog.ui
+-rw-r--r--  1 martinpettersson  staff   2805 Dec 29 23:50 openuridialog.ui
+-rw-r--r--  1 martinpettersson  staff   1743 Dec 29 23:50 transactiondescdialog.ui
+
+./src/qt/test:
+total 160
+-rw-r--r--  1 martinpettersson  staff  25602 Dec 29 23:50 paymentrequestdata.h
+-rw-r--r--  1 martinpettersson  staff   8388 Dec 29 23:50 paymentservertests.cpp
+-rw-r--r--  1 martinpettersson  staff   6242 Dec 29 23:50 rpcnestedtests.cpp
+-rw-r--r--  1 martinpettersson  staff   2945 Dec 29 23:50 uritests.cpp
+-rw-r--r--  1 martinpettersson  staff   1612 Dec 29 23:50 test_main.cpp
+-rw-r--r--  1 martinpettersson  staff    820 Dec 29 23:50 paymentservertests.h
+-rw-r--r--  1 martinpettersson  staff    691 Dec 29 23:50 compattests.cpp
+-rw-r--r--  1 martinpettersson  staff    549 Dec 29 23:50 rpcnestedtests.h
+-rw-r--r--  1 martinpettersson  staff    444 Dec 29 23:50 compattests.h
+-rw-r--r--  1 martinpettersson  staff    430 Dec 29 23:50 uritests.h
+-rw-r--r--  1 martinpettersson  staff    136 Dec 29 23:50 Makefile
+
+./src/qt/res:
+total 8
+drwxr-xr-x  58 martinpettersson  staff  1972 Dec 29 23:50 icons
+-rw-r--r--   1 martinpettersson  staff  1706 Dec 29 23:50 bitcoin-qt-res.rc
+drwxr-xr-x  39 martinpettersson  staff  1326 Dec 29 23:50 movies
+drwxr-xr-x  23 martinpettersson  staff   782 Dec 29 23:50 src
+
+./src/qt/res/icons:
+total 3072
+-rw-r--r--  1 martinpettersson  staff  919273 Dec 29 23:50 bitcoin.icns
+-rw-r--r--  1 martinpettersson  staff  312944 Dec 29 23:50 bitcoin.png
+-rwxr-xr-x  1 martinpettersson  staff   57964 Dec 29 23:50 bitcoin.ico
+-rw-r--r--  1 martinpettersson  staff   57251 Dec 29 23:50 bitcoin_testnet.ico
+-rw-r--r--  1 martinpettersson  staff    4328 Dec 29 23:50 hd_disabled.png
+-rw-r--r--  1 martinpettersson  staff    3717 Dec 29 23:50 about.png
+-rw-r--r--  1 martinpettersson  staff    2865 Dec 29 23:50 configure.png
+-rw-r--r--  1 martinpettersson  staff    2801 Dec 29 23:50 warning.png
+-rw-r--r--  1 martinpettersson  staff    2618 Dec 29 23:50 clock1.png
+-rw-r--r--  1 martinpettersson  staff    2599 Dec 29 23:50 eye_plus.png
+-rw-r--r--  1 martinpettersson  staff    2446 Dec 29 23:50 connect0.png
+-rw-r--r--  1 martinpettersson  staff    2438 Dec 29 23:50 eye_minus.png
+-rw-r--r--  1 martinpettersson  staff    2438 Dec 29 23:50 network_disabled.png
+-rw-r--r--  1 martinpettersson  staff    2398 Dec 29 23:50 clock2.png
+-rw-r--r--  1 martinpettersson  staff    2359 Dec 29 23:50 filesave.png
+-rw-r--r--  1 martinpettersson  staff    2241 Dec 29 23:50 eye.png
+-rw-r--r--  1 martinpettersson  staff    2240 Dec 29 23:50 about_qt.png
+-rw-r--r--  1 martinpettersson  staff    2163 Dec 29 23:50 connect1.png
+-rw-r--r--  1 martinpettersson  staff    2067 Dec 29 23:50 receive.png
+-rw-r--r--  1 martinpettersson  staff    2055 Dec 29 23:50 clock3.png
+-rw-r--r--  1 martinpettersson  staff    2034 Dec 29 23:50 verify.png
+-rw-r--r--  1 martinpettersson  staff    2028 Dec 29 23:50 info.png
+-rw-r--r--  1 martinpettersson  staff    1927 Dec 29 23:50 connect2.png
+-rw-r--r--  1 martinpettersson  staff    1909 Dec 29 23:50 clock4.png
+-rw-r--r--  1 martinpettersson  staff    1889 Dec 29 23:50 hd_enabled.png
+-rw-r--r--  1 martinpettersson  staff    1847 Dec 29 23:50 edit.png
+-rw-r--r--  1 martinpettersson  staff    1783 Dec 29 23:50 tx_input.png
+-rw-r--r--  1 martinpettersson  staff    1771 Dec 29 23:50 tx_output.png
+-rw-r--r--  1 martinpettersson  staff    1759 Dec 29 23:50 key.png
+-rw-r--r--  1 martinpettersson  staff    1750 Dec 29 23:50 connect3.png
+-rw-r--r--  1 martinpettersson  staff    1750 Dec 29 23:50 export.png
+-rw-r--r--  1 martinpettersson  staff    1750 Dec 29 23:50 send.png
+-rw-r--r--  1 martinpettersson  staff    1723 Dec 29 23:50 remove.png
+-rw-r--r--  1 martinpettersson  staff    1694 Dec 29 23:50 open.png
+-rw-r--r--  1 martinpettersson  staff    1662 Dec 29 23:50 overview.png
+-rw-r--r--  1 martinpettersson  staff    1659 Dec 29 23:50 clock5.png
+-rw-r--r--  1 martinpettersson  staff    1655 Dec 29 23:50 tx_inout.png
+-rw-r--r--  1 martinpettersson  staff    1619 Dec 29 23:50 synced.png
+-rw-r--r--  1 martinpettersson  staff    1619 Dec 29 23:50 transaction2.png
+-rw-r--r--  1 martinpettersson  staff    1578 Dec 29 23:50 tx_mined.png
+-rw-r--r--  1 martinpettersson  staff    1548 Dec 29 23:50 connect4.png
+-rw-r--r--  1 martinpettersson  staff    1473 Dec 29 23:50 transaction_abandoned.png
+-rw-r--r--  1 martinpettersson  staff    1327 Dec 29 23:50 debugwindow.png
+-rw-r--r--  1 martinpettersson  staff    1310 Dec 29 23:50 transaction0.png
+-rw-r--r--  1 martinpettersson  staff    1275 Dec 29 23:50 address-book.png
+-rw-r--r--  1 martinpettersson  staff    1257 Dec 29 23:50 lock_open.png
+-rw-r--r--  1 martinpettersson  staff    1197 Dec 29 23:50 lock_closed.png
+-rw-r--r--  1 martinpettersson  staff    1180 Dec 29 23:50 fontbigger.png
+-rw-r--r--  1 martinpettersson  staff    1091 Dec 29 23:50 quit.png
+-rw-r--r--  1 martinpettersson  staff    1091 Dec 29 23:50 transaction_conflicted.png
+-rw-r--r--  1 martinpettersson  staff    1024 Dec 29 23:50 editpaste.png
+-rw-r--r--  1 martinpettersson  staff     951 Dec 29 23:50 fontsmaller.png
+-rw-r--r--  1 martinpettersson  staff     883 Dec 29 23:50 editcopy.png
+-rw-r--r--  1 martinpettersson  staff     803 Dec 29 23:50 chevron.png
+-rw-r--r--  1 martinpettersson  staff     784 Dec 29 23:50 add.png
+-rw-r--r--  1 martinpettersson  staff     762 Dec 29 23:50 history.png
+
+./src/qt/res/movies:
+total 296
+-rw-r--r--  1 martinpettersson  staff  2429 Dec 29 23:50 spinner-016.png
+-rw-r--r--  1 martinpettersson  staff  2422 Dec 29 23:50 spinner-034.png
+-rw-r--r--  1 martinpettersson  staff  2408 Dec 29 23:50 spinner-017.png
+-rw-r--r--  1 martinpettersson  staff  2406 Dec 29 23:50 spinner-035.png
+-rw-r--r--  1 martinpettersson  staff  2405 Dec 29 23:50 spinner-015.png
+-rw-r--r--  1 martinpettersson  staff  2401 Dec 29 23:50 spinner-033.png
+-rw-r--r--  1 martinpettersson  staff  2380 Dec 29 23:50 spinner-019.png
+-rw-r--r--  1 martinpettersson  staff  2380 Dec 29 23:50 spinner-031.png
+-rw-r--r--  1 martinpettersson  staff  2377 Dec 29 23:50 spinner-013.png
+-rw-r--r--  1 martinpettersson  staff  2376 Dec 29 23:50 spinner-001.png
+-rw-r--r--  1 martinpettersson  staff  2376 Dec 29 23:50 spinner-002.png
+-rw-r--r--  1 martinpettersson  staff  2368 Dec 29 23:50 spinner-021.png
+-rw-r--r--  1 martinpettersson  staff  2366 Dec 29 23:50 spinner-020.png
+-rw-r--r--  1 martinpettersson  staff  2358 Dec 29 23:50 spinner-014.png
+-rw-r--r--  1 martinpettersson  staff  2356 Dec 29 23:50 spinner-022.png
+-rw-r--r--  1 martinpettersson  staff  2356 Dec 29 23:50 spinner-029.png
+-rw-r--r--  1 martinpettersson  staff  2355 Dec 29 23:50 spinner-003.png
+-rw-r--r--  1 martinpettersson  staff  2352 Dec 29 23:50 spinner-012.png
+-rw-r--r--  1 martinpettersson  staff  2349 Dec 29 23:50 spinner-004.png
+-rw-r--r--  1 martinpettersson  staff  2346 Dec 29 23:50 spinner-030.png
+-rw-r--r--  1 martinpettersson  staff  2345 Dec 29 23:50 spinner-032.png
+-rw-r--r--  1 martinpettersson  staff  2338 Dec 29 23:50 spinner-011.png
+-rw-r--r--  1 martinpettersson  staff  2315 Dec 29 23:50 spinner-024.png
+-rw-r--r--  1 martinpettersson  staff  2312 Dec 29 23:50 spinner-008.png
+-rw-r--r--  1 martinpettersson  staff  2311 Dec 29 23:50 spinner-023.png
+-rw-r--r--  1 martinpettersson  staff  2308 Dec 29 23:50 spinner-028.png
+-rw-r--r--  1 martinpettersson  staff  2305 Dec 29 23:50 spinner-005.png
+-rw-r--r--  1 martinpettersson  staff  2305 Dec 29 23:50 spinner-010.png
+-rw-r--r--  1 martinpettersson  staff  2304 Dec 29 23:50 spinner-006.png
+-rw-r--r--  1 martinpettersson  staff  2298 Dec 29 23:50 spinner-025.png
+-rw-r--r--  1 martinpettersson  staff  2291 Dec 29 23:50 spinner-026.png
+-rw-r--r--  1 martinpettersson  staff  2283 Dec 29 23:50 spinner-007.png
+-rw-r--r--  1 martinpettersson  staff  1831 Dec 29 23:50 spinner-018.png
+-rw-r--r--  1 martinpettersson  staff  1816 Dec 29 23:50 spinner-027.png
+-rw-r--r--  1 martinpettersson  staff  1810 Dec 29 23:50 spinner-009.png
+-rw-r--r--  1 martinpettersson  staff  1794 Dec 29 23:50 spinner-000.png
+-rwxr-xr-x  1 martinpettersson  staff   413 Dec 29 23:50 makespinner.sh
+
+./src/qt/res/src:
+total 240
+-rw-r--r--  1 martinpettersson  staff  16636 Dec 29 23:50 spinner.png
+-rw-r--r--  1 martinpettersson  staff   7532 Dec 29 23:50 connect-0.svg
+-rw-r--r--  1 martinpettersson  staff   6837 Dec 29 23:50 network_disabled.svg
+-rw-r--r--  1 martinpettersson  staff   6485 Dec 29 23:50 connect-1.svg
+-rw-r--r--  1 martinpettersson  staff   4961 Dec 29 23:50 connect-2.svg
+-rw-r--r--  1 martinpettersson  staff   4186 Dec 29 23:50 connect-3.svg
+-rw-r--r--  1 martinpettersson  staff   3640 Dec 29 23:50 bitcoin.svg
+-rw-r--r--  1 martinpettersson  staff   2877 Dec 29 23:50 connect-4.svg
+-rw-r--r--  1 martinpettersson  staff   2650 Dec 29 23:50 qt.svg
+-rw-r--r--  1 martinpettersson  staff   1654 Dec 29 23:50 clock_4.svg
+-rw-r--r--  1 martinpettersson  staff   1512 Dec 29 23:50 hd_disabled.svg
+-rw-r--r--  1 martinpettersson  staff   1332 Dec 29 23:50 verify.svg
+-rw-r--r--  1 martinpettersson  staff   1330 Dec 29 23:50 mine.svg
+-rw-r--r--  1 martinpettersson  staff   1221 Dec 29 23:50 transaction0.svg
+-rw-r--r--  1 martinpettersson  staff   1168 Dec 29 23:50 clock_0.svg
+-rw-r--r--  1 martinpettersson  staff   1151 Dec 29 23:50 clock_3.svg
+-rw-r--r--  1 martinpettersson  staff   1102 Dec 29 23:50 clock_1.svg
+-rw-r--r--  1 martinpettersson  staff   1059 Dec 29 23:50 clock_2.svg
+-rw-r--r--  1 martinpettersson  staff   1042 Dec 29 23:50 hd_enabled.svg
+-rw-r--r--  1 martinpettersson  staff   1008 Dec 29 23:50 tx_inout.svg
+-rw-r--r--  1 martinpettersson  staff    821 Dec 29 23:50 tx_in.svg
+
+./src/test:
+total 1600
+-rw-r--r--   1 martinpettersson  staff  88918 Dec 29 23:50 script_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  54598 Dec 29 23:50 bloom_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  36552 Dec 29 23:50 coins_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  35286 Dec 29 23:50 transaction_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  26150 Dec 29 23:50 util_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  25719 Dec 29 23:50 crypto_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  24095 Dec 29 23:50 mempool_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  23398 Dec 29 23:50 miner_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  23159 Dec 29 23:50 arith_uint256_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  18504 Dec 29 23:50 rpc_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  18319 Dec 29 23:50 addrman_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  17776 Dec 29 23:50 versionbits_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  14949 Dec 29 23:50 cuckoocache_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  14547 Dec 29 23:50 netbase_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  14205 Dec 29 23:50 script_P2SH_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  14008 Dec 29 23:50 serialize_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  11970 Dec 29 23:50 blockencodings_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  11968 Dec 29 23:50 multisig_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  10611 Dec 29 23:50 base58_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  10356 Dec 29 23:50 uint256_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  10330 Dec 29 23:50 dbwrapper_tests.cpp
+-rw-r--r--   1 martinpettersson  staff  10109 Dec 29 23:50 sigopcount_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   9559 Dec 29 23:50 univalue_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   8641 Dec 29 23:50 policyestimator_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   8317 Dec 29 23:50 prevector_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   7962 Dec 29 23:50 key_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   7460 Dec 29 23:50 scriptnum_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   7322 Dec 29 23:50 allocator_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   7209 Dec 29 23:50 sighash_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   6744 Dec 29 23:50 DoS_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   6738 Dec 29 23:50 scriptnum10.h
+-rw-r--r--   1 martinpettersson  staff   6487 Dec 29 23:50 test_bitcoin_fuzzy.cpp
+-rw-r--r--   1 martinpettersson  staff   6373 Dec 29 23:50 bip32_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   5955 Dec 29 23:50 merkle_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   5709 Dec 29 23:50 hash_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   5417 Dec 29 23:50 test_bitcoin.cpp
+-rw-r--r--   1 martinpettersson  staff   5299 Dec 29 23:50 net_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   4799 Dec 29 23:50 scheduler_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   4649 Dec 29 23:50 getarg_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   4613 Dec 29 23:50 pmt_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   4553 Dec 29 23:50 bctest.py
+-rw-r--r--   1 martinpettersson  staff   4326 Dec 29 23:50 streams_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   4185 Dec 29 23:50 skiplist_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   3556 Dec 29 23:50 pow_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   3120 Dec 29 23:50 test_bitcoin.h
+-rw-r--r--   1 martinpettersson  staff   3100 Dec 29 23:50 txvalidationcache_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   2730 Dec 29 23:50 amount_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   2710 Dec 29 23:50 limitedmap_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   2592 Dec 29 23:50 main_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   2544 Dec 29 23:50 README.md
+-rw-r--r--   1 martinpettersson  staff   1937 Dec 29 23:50 compress_tests.cpp
+-rw-r--r--   1 martinpettersson  staff   1572 Dec 29 23:50 reverselock_tests.cpp
+-rwxr-xr-x   1 martinpettersson  staff   1545 Dec 29 23:50 bitcoin-util-test.py
+drwxr-xr-x  37 martinpettersson  staff   1258 Dec 29 23:50 data
+-rw-r--r--   1 martinpettersson  staff   1019 Dec 29 23:50 timedata_tests.cpp
+-rw-r--r--   1 martinpettersson  staff    923 Dec 29 23:50 testutil.cpp
+-rw-r--r--   1 martinpettersson  staff    908 Dec 29 23:50 base32_tests.cpp
+-rw-r--r--   1 martinpettersson  staff    884 Dec 29 23:50 base64_tests.cpp
+-rw-r--r--   1 martinpettersson  staff    736 Dec 29 23:50 bswap_tests.cpp
+-rw-r--r--   1 martinpettersson  staff    657 Dec 29 23:50 sanity_tests.cpp
+-rw-r--r--   1 martinpettersson  staff    591 Dec 29 23:50 test_random.h
+-rw-r--r--   1 martinpettersson  staff    422 Dec 29 23:50 testutil.h
+-rw-r--r--   1 martinpettersson  staff    115 Dec 29 23:50 Makefile
+-rw-r--r--   1 martinpettersson  staff     40 Dec 29 23:50 buildenv.py.in
+
+./src/test/data:
+total 1544
+-rw-r--r--  1 martinpettersson  staff  214290 Dec 29 23:50 script_tests.json
+-rw-r--r--  1 martinpettersson  staff  210483 Dec 29 23:50 sighash.json
+-rw-r--r--  1 martinpettersson  staff   83423 Dec 29 23:50 tx_valid.json
+-rw-r--r--  1 martinpettersson  staff   43086 Dec 29 23:50 tx_invalid.json
+-rw-r--r--  1 martinpettersson  staff   22138 Dec 29 23:50 tt-locktime317000-out.json
+-rw-r--r--  1 martinpettersson  staff   21583 Dec 29 23:50 tt-delout1-out.json
+-rw-r--r--  1 martinpettersson  staff   21140 Dec 29 23:50 tt-delin1-out.json
+-rw-r--r--  1 martinpettersson  staff   12618 Dec 29 23:50 base58_keys_valid.json
+-rw-r--r--  1 martinpettersson  staff   11022 Dec 29 23:50 bitcoin-util-test.json
+-rw-r--r--  1 martinpettersson  staff    6379 Dec 29 23:50 tt-locktime317000-out.hex
+-rw-r--r--  1 martinpettersson  staff    6379 Dec 29 23:50 tx394b54bb.hex
+-rw-r--r--  1 martinpettersson  staff    6311 Dec 29 23:50 tt-delout1-out.hex
+-rw-r--r--  1 martinpettersson  staff    6081 Dec 29 23:50 tt-delin1-out.hex
+-rw-r--r--  1 martinpettersson  staff    4195 Dec 29 23:50 base58_keys_invalid.json
+-rw-r--r--  1 martinpettersson  staff    2396 Dec 29 23:50 txcreate1.json
+-rw-r--r--  1 martinpettersson  staff    1996 Dec 29 23:50 txcreatesignv1.json
+-rw-r--r--  1 martinpettersson  staff    1877 Dec 29 23:50 txcreatedata1.json
+-rw-r--r--  1 martinpettersson  staff    1877 Dec 29 23:50 txcreatedata2.json
+-rw-r--r--  1 martinpettersson  staff    1497 Dec 29 23:50 txcreatedata_seq1.json
+-rw-r--r--  1 martinpettersson  staff    1161 Dec 29 23:50 txcreatedata_seq0.json
+-rw-r--r--  1 martinpettersson  staff     497 Dec 29 23:50 txcreate2.json
+-rw-r--r--  1 martinpettersson  staff     449 Dec 29 23:50 txcreatesignv1.hex
+-rw-r--r--  1 martinpettersson  staff     447 Dec 29 23:50 txcreatesignv2.hex
+-rw-r--r--  1 martinpettersson  staff     438 Dec 29 23:50 base58_encode_decode.json
+-rw-r--r--  1 martinpettersson  staff     403 Dec 29 23:50 txcreate1.hex
+-rw-r--r--  1 martinpettersson  staff     353 Dec 29 23:50 txcreatedata1.hex
+-rw-r--r--  1 martinpettersson  staff     353 Dec 29 23:50 txcreatedata2.hex
+-rw-r--r--  1 martinpettersson  staff     290 Dec 29 23:50 README.md
+-rw-r--r--  1 martinpettersson  staff     276 Dec 29 23:50 blanktxv1.json
+-rw-r--r--  1 martinpettersson  staff     276 Dec 29 23:50 blanktxv2.json
+-rw-r--r--  1 martinpettersson  staff     253 Dec 29 23:50 txcreatedata_seq1.hex
+-rw-r--r--  1 martinpettersson  staff     171 Dec 29 23:50 txcreatedata_seq0.hex
+-rw-r--r--  1 martinpettersson  staff      39 Dec 29 23:50 txcreate2.hex
+-rw-r--r--  1 martinpettersson  staff      21 Dec 29 23:50 blanktxv1.hex
+-rw-r--r--  1 martinpettersson  staff      21 Dec 29 23:50 blanktxv2.hex
+
+./src/leveldb:
+total 120
+-rw-r--r--   1 martinpettersson  staff  15424 Dec 29 23:50 Makefile
+-rw-r--r--   1 martinpettersson  staff   8212 Dec 29 23:50 README.md
+-rwxr-xr-x   1 martinpettersson  staff   7689 Dec 29 23:50 build_detect_platform
+-rw-r--r--   1 martinpettersson  staff   1648 Dec 29 23:50 CONTRIBUTING.md
+drwxr-xr-x  47 martinpettersson  staff   1598 Dec 29 23:50 db
+-rw-r--r--   1 martinpettersson  staff   1484 Dec 29 23:50 LICENSE
+drwxr-xr-x  37 martinpettersson  staff   1258 Dec 29 23:50 util
+-rw-r--r--   1 martinpettersson  staff   1137 Dec 29 23:50 WINDOWS.md
+drwxr-xr-x  20 martinpettersson  staff    680 Dec 29 23:50 table
+-rw-r--r--   1 martinpettersson  staff    535 Dec 29 23:50 TODO
+-rw-r--r--   1 martinpettersson  staff    509 Dec 29 23:50 NEWS
+drwxr-xr-x  12 martinpettersson  staff    408 Dec 29 23:50 port
+drwxr-xr-x   9 martinpettersson  staff    306 Dec 29 23:50 doc
+-rw-r--r--   1 martinpettersson  staff    293 Dec 29 23:50 AUTHORS
+drwxr-xr-x   4 martinpettersson  staff    136 Dec 29 23:50 issues
+drwxr-xr-x   3 martinpettersson  staff    102 Dec 29 23:50 helpers
+drwxr-xr-x   3 martinpettersson  staff    102 Dec 29 23:50 include
+
+./src/leveldb/db:
+total 1000
+-rw-r--r--  1 martinpettersson  staff  63315 Dec 29 23:50 db_test.cc
+-rw-r--r--  1 martinpettersson  staff  48591 Dec 29 23:50 version_set.cc
+-rw-r--r--  1 martinpettersson  staff  47455 Dec 29 23:50 db_impl.cc
+-rw-r--r--  1 martinpettersson  staff  29689 Dec 29 23:50 db_bench.cc
+-rw-r--r--  1 martinpettersson  staff  16007 Dec 29 23:50 c.cc
+-rw-r--r--  1 martinpettersson  staff  15916 Dec 29 23:50 log_test.cc
+-rw-r--r--  1 martinpettersson  staff  15758 Dec 29 23:50 fault_injection_test.cc
+-rw-r--r--  1 martinpettersson  staff  14069 Dec 29 23:50 version_set.h
+-rw-r--r--  1 martinpettersson  staff  13731 Dec 29 23:50 repair.cc
+-rw-r--r--  1 martinpettersson  staff  11634 Dec 29 23:50 c_test.c
+-rw-r--r--  1 martinpettersson  staff  11297 Dec 29 23:50 skiplist.h
+-rw-r--r--  1 martinpettersson  staff  10115 Dec 29 23:50 corruption_test.cc
+-rw-r--r--  1 martinpettersson  staff   9806 Dec 29 23:50 skiplist_test.cc
+-rw-r--r--  1 martinpettersson  staff   9000 Dec 29 23:50 log_reader.cc
+-rw-r--r--  1 martinpettersson  staff   8539 Dec 29 23:50 db_iter.cc
+-rw-r--r--  1 martinpettersson  staff   8464 Dec 29 23:50 recovery_test.cc
+-rw-r--r--  1 martinpettersson  staff   7918 Dec 29 23:50 dbformat.h
+-rw-r--r--  1 martinpettersson  staff   7329 Dec 29 23:50 db_impl.h
+-rw-r--r--  1 martinpettersson  staff   6946 Dec 29 23:50 version_edit.cc
+-rw-r--r--  1 martinpettersson  staff   6299 Dec 29 23:50 dumpfile.cc
+-rw-r--r--  1 martinpettersson  staff   5353 Dec 29 23:50 version_set_test.cc
+-rw-r--r--  1 martinpettersson  staff   4783 Dec 29 23:50 memtable.cc
+-rw-r--r--  1 martinpettersson  staff   4537 Dec 29 23:50 dbformat.cc
+-rw-r--r--  1 martinpettersson  staff   4093 Dec 29 23:50 filename.cc
+-rw-r--r--  1 martinpettersson  staff   4022 Dec 29 23:50 write_batch.cc
+-rw-r--r--  1 martinpettersson  staff   3803 Dec 29 23:50 dbformat_test.cc
+-rw-r--r--  1 martinpettersson  staff   3773 Dec 29 23:50 log_reader.h
+-rw-r--r--  1 martinpettersson  staff   3653 Dec 29 23:50 table_cache.cc
+-rw-r--r--  1 martinpettersson  staff   3446 Dec 29 23:50 write_batch_test.cc
+-rw-r--r--  1 martinpettersson  staff   3423 Dec 29 23:50 filename_test.cc
+-rw-r--r--  1 martinpettersson  staff   3373 Dec 29 23:50 autocompact_test.cc
+-rw-r--r--  1 martinpettersson  staff   3065 Dec 29 23:50 log_writer.cc
+-rw-r--r--  1 martinpettersson  staff   3048 Dec 29 23:50 filename.h
+-rw-r--r--  1 martinpettersson  staff   2990 Dec 29 23:50 version_edit.h
+-rw-r--r--  1 martinpettersson  staff   2682 Dec 29 23:50 memtable.h
+-rw-r--r--  1 martinpettersson  staff   2163 Dec 29 23:50 builder.cc
+-rw-r--r--  1 martinpettersson  staff   2017 Dec 29 23:50 table_cache.h
+-rw-r--r--  1 martinpettersson  staff   1691 Dec 29 23:50 snapshot.h
+-rw-r--r--  1 martinpettersson  staff   1556 Dec 29 23:50 leveldbutil.cc
+-rw-r--r--  1 martinpettersson  staff   1533 Dec 29 23:50 write_batch_internal.h
+-rw-r--r--  1 martinpettersson  staff   1508 Dec 29 23:50 log_writer.h
+-rw-r--r--  1 martinpettersson  staff   1343 Dec 29 23:50 version_edit_test.cc
+-rw-r--r--  1 martinpettersson  staff   1102 Dec 29 23:50 builder.h
+-rw-r--r--  1 martinpettersson  staff    897 Dec 29 23:50 log_format.h
+-rw-r--r--  1 martinpettersson  staff    803 Dec 29 23:50 db_iter.h
+
+./src/leveldb/util:
+total 424
+-rw-r--r--  1 martinpettersson  staff  22512 Dec 29 23:50 env_win.cc
+-rw-r--r--  1 martinpettersson  staff  15727 Dec 29 23:50 env_posix.cc
+-rw-r--r--  1 martinpettersson  staff  14977 Dec 29 23:50 crc32c.cc
+-rw-r--r--  1 martinpettersson  staff  11788 Dec 29 23:50 cache.cc
+-rw-r--r--  1 martinpettersson  staff   5766 Dec 29 23:50 cache_test.cc
+-rw-r--r--  1 martinpettersson  staff   5527 Dec 29 23:50 coding_test.cc
+-rw-r--r--  1 martinpettersson  staff   4927 Dec 29 23:50 coding.cc
+-rw-r--r--  1 martinpettersson  staff   4729 Dec 29 23:50 histogram.cc
+-rw-r--r--  1 martinpettersson  staff   4707 Dec 29 23:50 testharness.h
+-rw-r--r--  1 martinpettersson  staff   4050 Dec 29 23:50 coding.h
+-rw-r--r--  1 martinpettersson  staff   3832 Dec 29 23:50 bloom_test.cc
+-rw-r--r--  1 martinpettersson  staff   2916 Dec 29 23:50 bloom.cc
+-rw-r--r--  1 martinpettersson  staff   2745 Dec 29 23:50 posix_logger.h
+-rw-r--r--  1 martinpettersson  staff   2524 Dec 29 23:50 env_test.cc
+-rw-r--r--  1 martinpettersson  staff   2257 Dec 29 23:50 env.cc
+-rw-r--r--  1 martinpettersson  staff   2184 Dec 29 23:50 comparator.cc
+-rw-r--r--  1 martinpettersson  staff   2174 Dec 29 23:50 random.h
+-rw-r--r--  1 martinpettersson  staff   2085 Dec 29 23:50 testutil.h
+-rw-r--r--  1 martinpettersson  staff   2059 Dec 29 23:50 arena.cc
+-rw-r--r--  1 martinpettersson  staff   1931 Dec 29 23:50 status.cc
+-rw-r--r--  1 martinpettersson  staff   1780 Dec 29 23:50 arena.h
+-rw-r--r--  1 martinpettersson  staff   1748 Dec 29 23:50 crc32c_test.cc
+-rw-r--r--  1 martinpettersson  staff   1713 Dec 29 23:50 logging.cc
+-rw-r--r--  1 martinpettersson  staff   1679 Dec 29 23:50 arena_test.cc
+-rw-r--r--  1 martinpettersson  staff   1668 Dec 29 23:50 testharness.cc
+-rw-r--r--  1 martinpettersson  staff   1618 Dec 29 23:50 hash_test.cc
+-rw-r--r--  1 martinpettersson  staff   1457 Dec 29 23:50 crc32c.h
+-rw-r--r--  1 martinpettersson  staff   1457 Dec 29 23:50 testutil.cc
+-rw-r--r--  1 martinpettersson  staff   1436 Dec 29 23:50 logging.h
+-rw-r--r--  1 martinpettersson  staff   1377 Dec 29 23:50 hash.cc
+-rw-r--r--  1 martinpettersson  staff   1129 Dec 29 23:50 mutexlock.h
+-rw-r--r--  1 martinpettersson  staff    925 Dec 29 23:50 histogram.h
+-rw-r--r--  1 martinpettersson  staff    788 Dec 29 23:50 options.cc
+-rw-r--r--  1 martinpettersson  staff    524 Dec 29 23:50 hash.h
+-rw-r--r--  1 martinpettersson  staff    333 Dec 29 23:50 filter_policy.cc
+
+./src/leveldb/table:
+total 240
+-rw-r--r--  1 martinpettersson  staff  24561 Dec 29 23:50 table_test.cc
+-rw-r--r--  1 martinpettersson  staff   8404 Dec 29 23:50 table.cc
+-rw-r--r--  1 martinpettersson  staff   8100 Dec 29 23:50 table_builder.cc
+-rw-r--r--  1 martinpettersson  staff   8081 Dec 29 23:50 block.cc
+-rw-r--r--  1 martinpettersson  staff   4911 Dec 29 23:50 merger.cc
+-rw-r--r--  1 martinpettersson  staff   4702 Dec 29 23:50 two_level_iterator.cc
+-rw-r--r--  1 martinpettersson  staff   4620 Dec 29 23:50 format.cc
+-rw-r--r--  1 martinpettersson  staff   3691 Dec 29 23:50 filter_block_test.cc
+-rw-r--r--  1 martinpettersson  staff   3656 Dec 29 23:50 block_builder.cc
+-rw-r--r--  1 martinpettersson  staff   3418 Dec 29 23:50 filter_block.cc
+-rw-r--r--  1 martinpettersson  staff   3142 Dec 29 23:50 format.h
+-rw-r--r--  1 martinpettersson  staff   2248 Dec 29 23:50 filter_block.h
+-rw-r--r--  1 martinpettersson  staff   2089 Dec 29 23:50 iterator_wrapper.h
+-rw-r--r--  1 martinpettersson  staff   1766 Dec 29 23:50 block_builder.h
+-rw-r--r--  1 martinpettersson  staff   1702 Dec 29 23:50 iterator.cc
+-rw-r--r--  1 martinpettersson  staff   1223 Dec 29 23:50 two_level_iterator.h
+-rw-r--r--  1 martinpettersson  staff   1034 Dec 29 23:50 block.h
+-rw-r--r--  1 martinpettersson  staff    867 Dec 29 23:50 merger.h
+
+./src/leveldb/port:
+total 104
+-rw-r--r--  1 martinpettersson  staff  7223 Dec 29 23:50 atomic_pointer.h
+-rw-r--r--  1 martinpettersson  staff  4883 Dec 29 23:50 port_win.h
+-rw-r--r--  1 martinpettersson  staff  4667 Dec 29 23:50 port_example.h
+-rw-r--r--  1 martinpettersson  staff  4181 Dec 29 23:50 port_posix.h
+-rw-r--r--  1 martinpettersson  staff  3974 Dec 29 23:50 port_win.cc
+-rw-r--r--  1 martinpettersson  staff  1414 Dec 29 23:50 port_posix.cc
+-rw-r--r--  1 martinpettersson  staff  1349 Dec 29 23:50 thread_annotations.h
+-rw-r--r--  1 martinpettersson  staff   766 Dec 29 23:50 port.h
+-rw-r--r--  1 martinpettersson  staff   405 Dec 29 23:50 README
+drwxr-xr-x  3 martinpettersson  staff   102 Dec 29 23:50 win
+
+./src/leveldb/port/win:
+total 8
+-rw-r--r--  1 martinpettersson  staff  855 Dec 29 23:50 stdint.h
+
+./src/leveldb/doc:
+total 144
+-rw-r--r--  1 martinpettersson  staff  21367 Dec 29 23:50 index.html
+-rw-r--r--  1 martinpettersson  staff  20970 Dec 29 23:50 benchmark.html
+-rw-r--r--  1 martinpettersson  staff   8285 Dec 29 23:50 impl.html
+-rw-r--r--  1 martinpettersson  staff   3754 Dec 29 23:50 table_format.txt
+-rw-r--r--  1 martinpettersson  staff   2806 Dec 29 23:50 log_format.txt
+-rw-r--r--  1 martinpettersson  staff   1127 Dec 29 23:50 doc.css
+drwxr-xr-x  4 martinpettersson  staff    136 Dec 29 23:50 bench
+
+./src/leveldb/doc/bench:
+total 80
+-rw-r--r--  1 martinpettersson  staff  22586 Dec 29 23:50 db_bench_sqlite3.cc
+-rw-r--r--  1 martinpettersson  staff  15964 Dec 29 23:50 db_bench_tree_db.cc
+
+./src/leveldb/issues:
+total 16
+-rw-r--r--  1 martinpettersson  staff  2569 Dec 29 23:50 issue178_test.cc
+-rw-r--r--  1 martinpettersson  staff  1701 Dec 29 23:50 issue200_test.cc
+
+./src/leveldb/helpers:
+total 0
+drwxr-xr-x  5 martinpettersson  staff  170 Dec 29 23:50 memenv
+
+./src/leveldb/helpers/memenv:
+total 48
+-rw-r--r--  1 martinpettersson  staff  9857 Dec 29 23:50 memenv.cc
+-rw-r--r--  1 martinpettersson  staff  7194 Dec 29 23:50 memenv_test.cc
+-rw-r--r--  1 martinpettersson  staff   699 Dec 29 23:50 memenv.h
+
+./src/leveldb/include:
+total 0
+drwxr-xr-x  16 martinpettersson  staff  544 Dec 29 23:50 leveldb
+
+./src/leveldb/include/leveldb:
+total 168
+-rw-r--r--  1 martinpettersson  staff  12795 Dec 29 23:50 env.h
+-rw-r--r--  1 martinpettersson  staff   9875 Dec 29 23:50 c.h
+-rw-r--r--  1 martinpettersson  staff   7038 Dec 29 23:50 options.h
+-rw-r--r--  1 martinpettersson  staff   6525 Dec 29 23:50 db.h
+-rw-r--r--  1 martinpettersson  staff   4062 Dec 29 23:50 cache.h
+-rw-r--r--  1 martinpettersson  staff   3622 Dec 29 23:50 status.h
+-rw-r--r--  1 martinpettersson  staff   3491 Dec 29 23:50 iterator.h
+-rw-r--r--  1 martinpettersson  staff   3395 Dec 29 23:50 table_builder.h
+-rw-r--r--  1 martinpettersson  staff   3131 Dec 29 23:50 slice.h
+-rw-r--r--  1 martinpettersson  staff   2963 Dec 29 23:50 table.h
+-rw-r--r--  1 martinpettersson  staff   2925 Dec 29 23:50 filter_policy.h
+-rw-r--r--  1 martinpettersson  staff   2349 Dec 29 23:50 comparator.h
+-rw-r--r--  1 martinpettersson  staff   1848 Dec 29 23:50 write_batch.h
+-rw-r--r--  1 martinpettersson  staff    876 Dec 29 23:50 dumpfile.h
+
+./src/bench:
+total 128
+-rw-r--r--  1 martinpettersson  staff  4235 Dec 29 23:50 mempool_eviction.cpp
+-rw-r--r--  1 martinpettersson  staff  3913 Dec 29 23:50 verify_script.cpp
+-rw-r--r--  1 martinpettersson  staff  3479 Dec 29 23:50 ccoins_caching.cpp
+-rw-r--r--  1 martinpettersson  staff  3462 Dec 29 23:50 bench.cpp
+-rw-r--r--  1 martinpettersson  staff  2323 Dec 29 23:50 bench.h
+-rw-r--r--  1 martinpettersson  staff  2094 Dec 29 23:50 coin_selection.cpp
+-rw-r--r--  1 martinpettersson  staff  2024 Dec 29 23:50 crypto_hash.cpp
+-rw-r--r--  1 martinpettersson  staff  1839 Dec 29 23:50 checkblock.cpp
+-rw-r--r--  1 martinpettersson  staff  1386 Dec 29 23:50 base58.cpp
+-rw-r--r--  1 martinpettersson  staff  1302 Dec 29 23:50 rollingbloom.cpp
+-rw-r--r--  1 martinpettersson  staff  1214 Dec 29 23:50 lockedpool.cpp
+-rw-r--r--  1 martinpettersson  staff  1138 Dec 29 23:50 perf.cpp
+-rw-r--r--  1 martinpettersson  staff   788 Dec 29 23:50 Examples.cpp
+-rw-r--r--  1 martinpettersson  staff   755 Dec 29 23:50 perf.h
+-rw-r--r--  1 martinpettersson  staff   474 Dec 29 23:50 bench_bitcoin.cpp
+drwxr-xr-x  3 martinpettersson  staff   102 Dec 29 23:50 data
+
+./src/bench/data:
+total 1960
+-rw-r--r--  1 martinpettersson  staff  999887 Dec 29 23:50 block413567.raw
+
+./src/crypto:
+total 192
+-rw-r--r--  1 martinpettersson  staff  11006 Dec 29 23:50 sha512.cpp
+-rw-r--r--  1 martinpettersson  staff  10992 Dec 29 23:50 ripemd160.cpp
+-rw-r--r--  1 martinpettersson  staff   8821 Dec 29 23:50 sha1.cpp
+-rw-r--r--  1 martinpettersson  staff   8668 Dec 29 23:50 sha256.cpp
+-rw-r--r--  1 martinpettersson  staff   5784 Dec 29 23:50 aes.cpp
+-rw-r--r--  1 martinpettersson  staff   2975 Dec 29 23:50 aes.h
+-rw-r--r--  1 martinpettersson  staff   1421 Dec 29 23:50 common.h
+-rw-r--r--  1 martinpettersson  staff    904 Dec 29 23:50 hmac_sha512.cpp
+-rw-r--r--  1 martinpettersson  staff    897 Dec 29 23:50 hmac_sha256.cpp
+-rw-r--r--  1 martinpettersson  staff    777 Dec 29 23:50 hmac_sha256.h
+-rw-r--r--  1 martinpettersson  staff    777 Dec 29 23:50 hmac_sha512.h
+-rw-r--r--  1 martinpettersson  staff    684 Dec 29 23:50 ripemd160.h
+-rw-r--r--  1 martinpettersson  staff    661 Dec 29 23:50 sha512.h
+-rw-r--r--  1 martinpettersson  staff    660 Dec 29 23:50 sha256.h
+-rw-r--r--  1 martinpettersson  staff    643 Dec 29 23:50 sha1.h
+drwxr-xr-x  8 martinpettersson  staff    272 Dec 29 23:50 ctaes
+
+./src/crypto/ctaes:
+total 96
+-rw-r--r--  1 martinpettersson  staff  18015 Dec 29 23:50 ctaes.c
+-rw-r--r--  1 martinpettersson  staff   5168 Dec 29 23:50 test.c
+-rw-r--r--  1 martinpettersson  staff   4977 Dec 29 23:50 bench.c
+-rw-r--r--  1 martinpettersson  staff   1541 Dec 29 23:50 ctaes.h
+-rw-r--r--  1 martinpettersson  staff   1243 Dec 29 23:50 README.md
+-rw-r--r--  1 martinpettersson  staff   1080 Dec 29 23:50 COPYING
+
+./src/script:
+total 368
+-rw-r--r--  1 martinpettersson  staff  62284 Dec 29 23:50 interpreter.cpp
+-rw-r--r--  1 martinpettersson  staff  19730 Dec 29 23:50 script.h
+-rw-r--r--  1 martinpettersson  staff  15154 Dec 29 23:50 sign.cpp
+-rw-r--r--  1 martinpettersson  staff  10434 Dec 29 23:50 script.cpp
+-rw-r--r--  1 martinpettersson  staff  10087 Dec 29 23:50 standard.cpp
+-rw-r--r--  1 martinpettersson  staff   7135 Dec 29 23:50 interpreter.h
+-rw-r--r--  1 martinpettersson  staff   5442 Dec 29 23:50 ismine.cpp
+-rw-r--r--  1 martinpettersson  staff   4471 Dec 29 23:50 script_error.cpp
+-rw-r--r--  1 martinpettersson  staff   4368 Dec 29 23:50 bitcoinconsensus.cpp
+-rw-r--r--  1 martinpettersson  staff   3712 Dec 29 23:50 sigcache.cpp
+-rw-r--r--  1 martinpettersson  staff   3687 Dec 29 23:50 bitcoinconsensus.h
+-rw-r--r--  1 martinpettersson  staff   3687 Dec 29 23:50 sign.h
+-rw-r--r--  1 martinpettersson  staff   2835 Dec 29 23:50 standard.h
+-rw-r--r--  1 martinpettersson  staff   2088 Dec 29 23:50 script_error.h
+-rw-r--r--  1 martinpettersson  staff   1938 Dec 29 23:50 ismine.h
+-rw-r--r--  1 martinpettersson  staff   1160 Dec 29 23:50 sigcache.h
+
+./src/secp256k1:
+total 88
+-rw-r--r--   1 martinpettersson  staff  14710 Dec 29 23:50 configure.ac
+-rw-r--r--   1 martinpettersson  staff   5446 Dec 29 23:50 Makefile.am
+-rw-r--r--   1 martinpettersson  staff   3097 Dec 29 23:50 README.md
+drwxr-xr-x  54 martinpettersson  staff   1836 Dec 29 23:50 src
+-rw-r--r--   1 martinpettersson  staff   1057 Dec 29 23:50 COPYING
+-rw-r--r--   1 martinpettersson  staff    327 Dec 29 23:50 libsecp256k1.pc.in
+drwxr-xr-x   6 martinpettersson  staff    204 Dec 29 23:50 contrib
+drwxr-xr-x   5 martinpettersson  staff    170 Dec 29 23:50 include
+drwxr-xr-x   5 martinpettersson  staff    170 Dec 29 23:50 sage
+-rw-r--r--   1 martinpettersson  staff    158 Dec 29 23:50 TODO
+drwxr-xr-x   3 martinpettersson  staff    102 Dec 29 23:50 build-aux
+drwxr-xr-x   3 martinpettersson  staff    102 Dec 29 23:50 obj
+-rwxr-xr-x   1 martinpettersson  staff     47 Dec 29 23:50 autogen.sh
+
+./src/secp256k1/src:
+total 1328
+-rw-r--r--  1 martinpettersson  staff  194985 Dec 29 23:50 tests.c
+-rw-r--r--  1 martinpettersson  staff   45447 Dec 29 23:50 field_10x26_impl.h
+-rw-r--r--  1 martinpettersson  staff   30690 Dec 29 23:50 scalar_4x64_impl.h
+-rw-r--r--  1 martinpettersson  staff   27668 Dec 29 23:50 group_impl.h
+-rw-r--r--  1 martinpettersson  staff   26859 Dec 29 23:50 scalar_8x32_impl.h
+-rwxr-xr-x  1 martinpettersson  staff   18982 Dec 29 23:50 secp256k1.c
+-rw-r--r--  1 martinpettersson  staff   14700 Dec 29 23:50 field_5x52_impl.h
+-rw-r--r--  1 martinpettersson  staff   14095 Dec 29 23:50 ecmult_impl.h
+-rw-r--r--  1 martinpettersson  staff   13544 Dec 29 23:50 bench_internal.c
+-rw-r--r--  1 martinpettersson  staff   13142 Dec 29 23:50 scalar_impl.h
+-rw-r--r--  1 martinpettersson  staff   13127 Dec 29 23:50 field_5x52_asm_impl.h
+-rw-r--r--  1 martinpettersson  staff   12674 Dec 29 23:50 hash_impl.h
+-rw-r--r--  1 martinpettersson  staff   12431 Dec 29 23:50 tests_exhaustive.c
+-rw-r--r--  1 martinpettersson  staff   10682 Dec 29 23:50 ecdsa_impl.h
+-rw-r--r--  1 martinpettersson  staff    9190 Dec 29 23:50 field_5x52_int128_impl.h
+-rw-r--r--  1 martinpettersson  staff    8952 Dec 29 23:50 ecmult_const_impl.h
+-rw-r--r--  1 martinpettersson  staff    8758 Dec 29 23:50 field_impl.h
+-rw-r--r--  1 martinpettersson  staff    8376 Dec 29 23:50 num_gmp_impl.h
+-rw-r--r--  1 martinpettersson  staff    8359 Dec 29 23:50 ecmult_gen_impl.h
+-rw-r--r--  1 martinpettersson  staff    7862 Dec 29 23:50 group.h
+-rw-r--r--  1 martinpettersson  staff    6436 Dec 29 23:50 field.h
+-rw-r--r--  1 martinpettersson  staff    4763 Dec 29 23:50 scalar.h
+-rw-r--r--  1 martinpettersson  staff    3981 Dec 29 23:50 testrand_impl.h
+-rw-r--r--  1 martinpettersson  staff    3928 Dec 29 23:50 bench_verify.c
+-rw-r--r--  1 martinpettersson  staff    3719 Dec 29 23:50 scalar_low_impl.h
+-rw-r--r--  1 martinpettersson  staff    3178 Dec 29 23:50 eckey_impl.h
+-rw-r--r--  1 martinpettersson  staff    2793 Dec 29 23:50 num.h
+-rw-r--r--  1 martinpettersson  staff    2785 Dec 29 23:50 util.h
+-rw-r--r--  1 martinpettersson  staff    2462 Dec 29 23:50 bench_schnorr_verify.c
+-rw-r--r--  1 martinpettersson  staff    2356 Dec 29 23:50 gen_context.c
+-rw-r--r--  1 martinpettersson  staff    2277 Dec 29 23:50 ecmult_gen.h
+-rw-r--r--  1 martinpettersson  staff    2022 Dec 29 23:50 bench_recover.c
+-rw-r--r--  1 martinpettersson  staff    1909 Dec 29 23:50 field_10x26.h
+-rw-r--r--  1 martinpettersson  staff    1726 Dec 29 23:50 bench.h
+-rw-r--r--  1 martinpettersson  staff    1712 Dec 29 23:50 hash.h
+-rw-r--r--  1 martinpettersson  staff    1711 Dec 29 23:50 field_5x52.h
+-rw-r--r--  1 martinpettersson  staff    1651 Dec 29 23:50 bench_ecdh.c
+-rw-r--r--  1 martinpettersson  staff    1594 Dec 29 23:50 bench_sign.c
+-rw-r--r--  1 martinpettersson  staff    1481 Dec 29 23:50 ecmult.h
+-rw-r--r--  1 martinpettersson  staff    1464 Dec 29 23:50 testrand.h
+-rw-r--r--  1 martinpettersson  staff    1208 Dec 29 23:50 eckey.h
+-rw-r--r--  1 martinpettersson  staff    1172 Dec 29 23:50 ecdsa.h
+-rw-r--r--  1 martinpettersson  staff     944 Dec 29 23:50 basic-config.h
+-rw-r--r--  1 martinpettersson  staff     766 Dec 29 23:50 scalar_4x64.h
+-rw-r--r--  1 martinpettersson  staff     690 Dec 29 23:50 scalar_8x32.h
+-rw-r--r--  1 martinpettersson  staff     667 Dec 29 23:50 num_impl.h
+-rw-r--r--  1 martinpettersson  staff     599 Dec 29 23:50 num_gmp.h
+-rw-r--r--  1 martinpettersson  staff     581 Dec 29 23:50 ecmult_const.h
+-rw-r--r--  1 martinpettersson  staff     554 Dec 29 23:50 scalar_low.h
+drwxr-xr-x  7 martinpettersson  staff     238 Dec 29 23:50 java
+drwxr-xr-x  4 martinpettersson  staff     136 Dec 29 23:50 modules
+drwxr-xr-x  3 martinpettersson  staff     102 Dec 29 23:50 asm
+
+./src/secp256k1/src/java:
+total 48
+-rw-r--r--  1 martinpettersson  staff  12137 Dec 29 23:50 org_bitcoin_NativeSecp256k1.c
+-rw-r--r--  1 martinpettersson  staff   3733 Dec 29 23:50 org_bitcoin_NativeSecp256k1.h
+-rw-r--r--  1 martinpettersson  staff    538 Dec 29 23:50 org_bitcoin_Secp256k1Context.h
+-rw-r--r--  1 martinpettersson  staff    404 Dec 29 23:50 org_bitcoin_Secp256k1Context.c
+drwxr-xr-x  3 martinpettersson  staff    102 Dec 29 23:50 org
+
+./src/secp256k1/src/java/org:
+total 0
+drwxr-xr-x  6 martinpettersson  staff  204 Dec 29 23:50 bitcoin
+
+./src/secp256k1/src/java/org/bitcoin:
+total 72
+-rw-r--r--  1 martinpettersson  staff  15756 Dec 29 23:50 NativeSecp256k1.java
+-rw-r--r--  1 martinpettersson  staff  11440 Dec 29 23:50 NativeSecp256k1Test.java
+-rw-r--r--  1 martinpettersson  staff   1551 Dec 29 23:50 Secp256k1Context.java
+-rw-r--r--  1 martinpettersson  staff   1543 Dec 29 23:50 NativeSecp256k1Util.java
+
+./src/secp256k1/src/modules:
+total 0
+drwxr-xr-x  5 martinpettersson  staff  170 Dec 29 23:50 ecdh
+drwxr-xr-x  5 martinpettersson  staff  170 Dec 29 23:50 recovery
+
+./src/secp256k1/src/modules/ecdh:
+total 24
+-rw-r--r--  1 martinpettersson  staff  2770 Dec 29 23:50 tests_impl.h
+-rw-r--r--  1 martinpettersson  staff  1877 Dec 29 23:50 main_impl.h
+-rw-r--r--  1 martinpettersson  staff   292 Dec 29 23:50 Makefile.am.include
+
+./src/secp256k1/src/modules/recovery:
+total 56
+-rw-r--r--  1 martinpettersson  staff  13080 Dec 29 23:50 tests_impl.h
+-rwxr-xr-x  1 martinpettersson  staff   7143 Dec 29 23:50 main_impl.h
+-rw-r--r--  1 martinpettersson  staff    316 Dec 29 23:50 Makefile.am.include
+
+./src/secp256k1/src/asm:
+total 56
+-rw-r--r--  1 martinpettersson  staff  28456 Dec 29 23:50 field_10x26_arm.s
+
+./src/secp256k1/contrib:
+total 40
+-rw-r--r--  1 martinpettersson  staff  5114 Dec 29 23:50 lax_der_privatekey_parsing.c
+-rw-r--r--  1 martinpettersson  staff  3909 Dec 29 23:50 lax_der_parsing.h
+-rw-r--r--  1 martinpettersson  staff  3724 Dec 29 23:50 lax_der_privatekey_parsing.h
+-rw-r--r--  1 martinpettersson  staff  3610 Dec 29 23:50 lax_der_parsing.c
+
+./src/secp256k1/include:
+total 80
+-rw-r--r--  1 martinpettersson  staff  25517 Dec 29 23:50 secp256k1.h
+-rw-r--r--  1 martinpettersson  staff   4700 Dec 29 23:50 secp256k1_recovery.h
+-rw-r--r--  1 martinpettersson  staff   1014 Dec 29 23:50 secp256k1_ecdh.h
+
+./src/secp256k1/sage:
+total 72
+-rw-r--r--  1 martinpettersson  staff  11802 Dec 29 23:50 group_prover.sage
+-rw-r--r--  1 martinpettersson  staff   9554 Dec 29 23:50 weierstrass_prover.sage
+-rw-r--r--  1 martinpettersson  staff   8836 Dec 29 23:50 secp256k1.sage
+
+./src/secp256k1/build-aux:
+total 0
+drwxr-xr-x  5 martinpettersson  staff  170 Dec 29 23:50 m4
+
+./src/secp256k1/build-aux/m4:
+total 32
+-rw-r--r--  1 martinpettersson  staff  4332 Dec 29 23:50 ax_jni_include_dir.m4
+-rw-r--r--  1 martinpettersson  staff  4034 Dec 29 23:50 ax_prog_cc_for_build.m4
+-rw-r--r--  1 martinpettersson  staff  2320 Dec 29 23:50 bitcoin_secp.m4
+
+./src/secp256k1/obj:
+
+./src/univalue:
+total 48
+-rw-r--r--   1 martinpettersson  staff  2623 Dec 29 23:50 Makefile.am
+-rw-r--r--   1 martinpettersson  staff  2160 Dec 29 23:50 configure.ac
+drwxr-xr-x  50 martinpettersson  staff  1700 Dec 29 23:50 test
+-rw-r--r--   1 martinpettersson  staff  1025 Dec 29 23:50 COPYING
+drwxr-xr-x   8 martinpettersson  staff   272 Dec 29 23:50 lib
+-rw-r--r--   1 martinpettersson  staff   231 Dec 29 23:50 TODO
+-rwxr-xr-x   1 martinpettersson  staff   214 Dec 29 23:50 autogen.sh
+-rw-r--r--   1 martinpettersson  staff   158 Dec 29 23:50 README
+drwxr-xr-x   4 martinpettersson  staff   136 Dec 29 23:50 pc
+drwxr-xr-x   3 martinpettersson  staff   102 Dec 29 23:50 build-aux
+drwxr-xr-x   3 martinpettersson  staff   102 Dec 29 23:50 gen
+drwxr-xr-x   3 martinpettersson  staff   102 Dec 29 23:50 include
+
+./src/univalue/test:
+total 384
+-rw-r--r--  1 martinpettersson  staff  4506 Dec 29 23:50 unitester.cpp
+-rw-r--r--  1 martinpettersson  staff  1441 Dec 29 23:50 pass1.json
+-rw-r--r--  1 martinpettersson  staff   280 Dec 29 23:50 round1.json
+-rw-r--r--  1 martinpettersson  staff   148 Dec 29 23:50 pass3.json
+-rw-r--r--  1 martinpettersson  staff    60 Dec 29 23:50 fail1.json
+-rw-r--r--  1 martinpettersson  staff    58 Dec 29 23:50 fail10.json
+-rw-r--r--  1 martinpettersson  staff    52 Dec 29 23:50 pass2.json
+-rw-r--r--  1 martinpettersson  staff    50 Dec 29 23:50 fail18.json
+-rw-r--r--  1 martinpettersson  staff    43 Dec 29 23:50 fail13.json
+-rw-r--r--  1 martinpettersson  staff    40 Dec 29 23:50 fail32.json
+-rw-r--r--  1 martinpettersson  staff    38 Dec 29 23:50 fail26.json
+-rw-r--r--  1 martinpettersson  staff    37 Dec 29 23:50 fail3.json
+-rw-r--r--  1 martinpettersson  staff    34 Dec 29 23:50 fail15.json
+-rw-r--r--  1 martinpettersson  staff    34 Dec 29 23:50 fail17.json
+-rw-r--r--  1 martinpettersson  staff    33 Dec 29 23:50 fail22.json
+-rw-r--r--  1 martinpettersson  staff    32 Dec 29 23:50 fail21.json
+-rw-r--r--  1 martinpettersson  staff    31 Dec 29 23:50 fail12.json
+-rw-r--r--  1 martinpettersson  staff    31 Dec 29 23:50 fail14.json
+-rw-r--r--  1 martinpettersson  staff    29 Dec 29 23:50 fail11.json
+-rw-r--r--  1 martinpettersson  staff    29 Dec 29 23:50 fail25.json
+-rw-r--r--  1 martinpettersson  staff    28 Dec 29 23:50 fail35.json
+-rw-r--r--  1 martinpettersson  staff    26 Dec 29 23:50 fail6.json
+-rw-r--r--  1 martinpettersson  staff    26 Dec 29 23:50 fail7.json
+-rw-r--r--  1 martinpettersson  staff    24 Dec 29 23:50 fail5.json
+-rw-r--r--  1 martinpettersson  staff    23 Dec 29 23:50 fail20.json
+-rw-r--r--  1 martinpettersson  staff    22 Dec 29 23:50 fail19.json
+-rw-r--r--  1 martinpettersson  staff    22 Dec 29 23:50 fail9.json
+-rw-r--r--  1 martinpettersson  staff    20 Dec 29 23:50 fail23.json
+-rw-r--r--  1 martinpettersson  staff    19 Dec 29 23:50 round2.json
+-rw-r--r--  1 martinpettersson  staff    17 Dec 29 23:50 fail2.json
+-rw-r--r--  1 martinpettersson  staff    16 Dec 29 23:50 fail24.json
+-rw-r--r--  1 martinpettersson  staff    16 Dec 29 23:50 fail4.json
+-rw-r--r--  1 martinpettersson  staff    16 Dec 29 23:50 fail8.json
+-rw-r--r--  1 martinpettersson  staff    15 Dec 29 23:50 fail28.json
+-rw-r--r--  1 martinpettersson  staff    14 Dec 29 23:50 fail27.json
+-rw-r--r--  1 martinpettersson  staff    14 Dec 29 23:50 fail37.json
+-rw-r--r--  1 martinpettersson  staff    12 Dec 29 23:50 fail33.json
+-rw-r--r--  1 martinpettersson  staff    11 Dec 29 23:50 fail38.json
+-rw-r--r--  1 martinpettersson  staff    11 Dec 29 23:50 fail39.json
+-rw-r--r--  1 martinpettersson  staff    10 Dec 29 23:50 fail34.json
+-rw-r--r--  1 martinpettersson  staff     8 Dec 29 23:50 fail16.json
+-rw-r--r--  1 martinpettersson  staff     7 Dec 29 23:50 fail31.json
+-rw-r--r--  1 martinpettersson  staff     7 Dec 29 23:50 fail36.json
+-rw-r--r--  1 martinpettersson  staff     7 Dec 29 23:50 fail40.json
+-rw-r--r--  1 martinpettersson  staff     7 Dec 29 23:50 fail41.json
+-rw-r--r--  1 martinpettersson  staff     5 Dec 29 23:50 fail30.json
+-rw-r--r--  1 martinpettersson  staff     4 Dec 29 23:50 fail29.json
+
+./src/univalue/lib:
+total 72
+-rw-r--r--  1 martinpettersson  staff  11262 Dec 29 23:50 univalue_read.cpp
+-rw-r--r--  1 martinpettersson  staff   8106 Dec 29 23:50 univalue.cpp
+-rw-r--r--  1 martinpettersson  staff   4669 Dec 29 23:50 univalue_utffilter.h
+-rw-r--r--  1 martinpettersson  staff   2748 Dec 29 23:50 univalue_write.cpp
+-rw-r--r--  1 martinpettersson  staff   2162 Dec 29 23:50 univalue_escapes.h
+
+./src/univalue/pc:
+total 16
+-rw-r--r--  1 martinpettersson  staff  243 Dec 29 23:50 libunivalue-uninstalled.pc.in
+-rw-r--r--  1 martinpettersson  staff  243 Dec 29 23:50 libunivalue.pc.in
+
+./src/univalue/build-aux:
+total 0
+drwxr-xr-x  3 martinpettersson  staff  102 Dec 29 23:50 m4
+
+./src/univalue/build-aux/m4:
+
+./src/univalue/gen:
+total 8
+-rw-r--r--  1 martinpettersson  staff  1846 Dec 29 23:50 gen.cpp
+
+./src/univalue/include:
+total 16
+-rw-r--r--  1 martinpettersson  staff  7848 Dec 29 23:50 univalue.h
+
+./src/wallet:
+total 864
+-rw-r--r--  1 martinpettersson  staff  136477 Dec 29 23:50 wallet.cpp
+-rw-r--r--  1 martinpettersson  staff  121800 Dec 29 23:50 rpcwallet.cpp
+-rw-r--r--  1 martinpettersson  staff   43126 Dec 29 23:50 rpcdump.cpp
+-rw-r--r--  1 martinpettersson  staff   33287 Dec 29 23:50 wallet.h
+-rw-r--r--  1 martinpettersson  staff   29508 Dec 29 23:50 walletdb.cpp
+-rw-r--r--  1 martinpettersson  staff   15350 Dec 29 23:50 db.cpp
+-rw-r--r--  1 martinpettersson  staff    9225 Dec 29 23:50 crypter.cpp
+-rw-r--r--  1 martinpettersson  staff    8413 Dec 29 23:50 db.h
+-rw-r--r--  1 martinpettersson  staff    5998 Dec 29 23:50 crypter.h
+-rw-r--r--  1 martinpettersson  staff    5797 Dec 29 23:50 walletdb.h
+-rw-r--r--  1 martinpettersson  staff    1942 Dec 29 23:50 coincontrol.h
+-rw-r--r--  1 martinpettersson  staff     362 Dec 29 23:50 rpcwallet.h
+drwxr-xr-x  7 martinpettersson  staff     238 Dec 29 23:50 test
+
+./src/wallet/test:
+total 88
+-rw-r--r--  1 martinpettersson  staff  16320 Dec 29 23:50 wallet_tests.cpp
+-rw-r--r--  1 martinpettersson  staff  10018 Dec 29 23:50 crypto_tests.cpp
+-rw-r--r--  1 martinpettersson  staff   4198 Dec 29 23:50 accounting_tests.cpp
+-rw-r--r--  1 martinpettersson  staff    820 Dec 29 23:50 wallet_test_fixture.cpp
+-rw-r--r--  1 martinpettersson  staff    513 Dec 29 23:50 wallet_test_fixture.h
+
+./src/rpc:
+total 504
+-rw-r--r--  1 martinpettersson  staff  59358 Dec 29 23:50 blockchain.cpp
+-rw-r--r--  1 martinpettersson  staff  42508 Dec 29 23:50 rawtransaction.cpp
+-rw-r--r--  1 martinpettersson  staff  41661 Dec 29 23:50 mining.cpp
+-rw-r--r--  1 martinpettersson  staff  28026 Dec 29 23:50 net.cpp
+-rw-r--r--  1 martinpettersson  staff  22257 Dec 29 23:50 misc.cpp
+-rw-r--r--  1 martinpettersson  staff  15078 Dec 29 23:50 server.cpp
+-rw-r--r--  1 martinpettersson  staff   6159 Dec 29 23:50 server.h
+-rw-r--r--  1 martinpettersson  staff   4897 Dec 29 23:50 client.cpp
+-rw-r--r--  1 martinpettersson  staff   4552 Dec 29 23:50 protocol.h
+-rw-r--r--  1 martinpettersson  staff   3836 Dec 29 23:50 protocol.cpp
+-rw-r--r--  1 martinpettersson  staff   1124 Dec 29 23:50 register.h
+-rw-r--r--  1 martinpettersson  staff    631 Dec 29 23:50 client.h
+
+./src/compat:
+total 56
+-rw-r--r--  1 martinpettersson  staff  4030 Dec 29 23:50 endian.h
+-rw-r--r--  1 martinpettersson  staff  1849 Dec 29 23:50 byteswap.h
+-rw-r--r--  1 martinpettersson  staff  1801 Dec 29 23:50 glibc_sanity.cpp
+-rw-r--r--  1 martinpettersson  staff  1708 Dec 29 23:50 glibcxx_sanity.cpp
+-rw-r--r--  1 martinpettersson  staff   837 Dec 29 23:50 glibc_compat.cpp
+-rw-r--r--  1 martinpettersson  staff   512 Dec 29 23:50 strnlen.cpp
+-rw-r--r--  1 martinpettersson  staff   349 Dec 29 23:50 sanity.h
+
+./src/zmq:
+total 72
+-rw-r--r--  1 martinpettersson  staff  5552 Dec 29 23:50 zmqpublishnotifier.cpp
+-rw-r--r--  1 martinpettersson  staff  4734 Dec 29 23:50 zmqnotificationinterface.cpp
+-rw-r--r--  1 martinpettersson  staff  1362 Dec 29 23:50 zmqpublishnotifier.h
+-rw-r--r--  1 martinpettersson  staff  1180 Dec 29 23:50 zmqabstractnotifier.h
+-rw-r--r--  1 martinpettersson  staff  1016 Dec 29 23:50 zmqnotificationinterface.h
+-rw-r--r--  1 martinpettersson  staff   538 Dec 29 23:50 zmqconfig.h
+-rw-r--r--  1 martinpettersson  staff   517 Dec 29 23:50 zmqabstractnotifier.cpp
+
+./src/policy:
+total 112
+-rw-r--r--  1 martinpettersson  staff  19380 Dec 29 23:50 fees.cpp
+-rw-r--r--  1 martinpettersson  staff  12023 Dec 29 23:50 fees.h
+-rw-r--r--  1 martinpettersson  staff   8152 Dec 29 23:50 policy.cpp
+-rw-r--r--  1 martinpettersson  staff   5293 Dec 29 23:50 policy.h
+-rw-r--r--  1 martinpettersson  staff   1541 Dec 29 23:50 rbf.cpp
+-rw-r--r--  1 martinpettersson  staff    914 Dec 29 23:50 rbf.h
+
+./src/consensus:
+total 48
+-rw-r--r--  1 martinpettersson  staff  7725 Dec 29 23:50 merkle.cpp
+-rw-r--r--  1 martinpettersson  staff  3075 Dec 29 23:50 validation.h
+-rw-r--r--  1 martinpettersson  staff  2255 Dec 29 23:50 params.h
+-rw-r--r--  1 martinpettersson  staff  1388 Dec 29 23:50 consensus.h
+-rw-r--r--  1 martinpettersson  staff  1318 Dec 29 23:50 merkle.h
+
+./src/support:
+total 56
+-rw-r--r--  1 martinpettersson  staff  11678 Dec 29 23:50 lockedpool.cpp
+-rw-r--r--  1 martinpettersson  staff   7626 Dec 29 23:50 lockedpool.h
+-rw-r--r--  1 martinpettersson  staff    410 Dec 29 23:50 cleanse.h
+-rw-r--r--  1 martinpettersson  staff    368 Dec 29 23:50 cleanse.cpp
+drwxr-xr-x  4 martinpettersson  staff    136 Dec 29 23:50 allocators
+
+./src/support/allocators:
+total 16
+-rw-r--r--  1 martinpettersson  staff  1947 Dec 29 23:50 secure.h
+-rw-r--r--  1 martinpettersson  staff  1716 Dec 29 23:50 zeroafterfree.h
+
+./src/primitives:
+total 64
+-rw-r--r--  1 martinpettersson  staff  14234 Dec 29 23:50 transaction.h
+-rw-r--r--  1 martinpettersson  staff   5160 Dec 29 23:50 transaction.cpp
+-rw-r--r--  1 martinpettersson  staff   3723 Dec 29 23:50 block.h
+-rw-r--r--  1 martinpettersson  staff   1468 Dec 29 23:50 block.cpp
+
+./src/config:
+
+./src/obj:
+
+./src/obj-test:
+
+./doc:
+total 616
+-rw-r--r--   1 martinpettersson  staff  107172 Dec 29 23:50 Doxyfile
+-rw-r--r--   1 martinpettersson  staff   19373 Dec 29 23:50 gitian-building.md
+-rw-r--r--   1 martinpettersson  staff   17132 Dec 29 23:50 developer-notes.md
+-rw-r--r--   1 martinpettersson  staff   12729 Dec 29 23:50 build-unix.md
+-rw-r--r--   1 martinpettersson  staff   12492 Dec 29 23:50 release-process.md
+-rw-r--r--   1 martinpettersson  staff    8255 Dec 29 23:50 bips.md
+-rw-r--r--   1 martinpettersson  staff    7166 Dec 29 23:50 build-openbsd.md
+-rw-r--r--   1 martinpettersson  staff    6409 Dec 29 23:50 translation_process.md
+-rw-r--r--   1 martinpettersson  staff    6145 Dec 29 23:50 tor.md
+-rw-r--r--   1 martinpettersson  staff    5275 Dec 29 23:50 README_osx.md
+-rw-r--r--   1 martinpettersson  staff    5248 Dec 29 23:50 init.md
+-rw-r--r--   1 martinpettersson  staff    4628 Dec 29 23:50 translation_strings_policy.md
+-rw-r--r--   1 martinpettersson  staff    4398 Dec 29 23:50 zmq.md
+-rw-r--r--   1 martinpettersson  staff    3879 Dec 29 23:50 release-notes.md
+-rw-r--r--   1 martinpettersson  staff    3842 Dec 29 23:50 REST-interface.md
+-rw-r--r--   1 martinpettersson  staff    3752 Dec 29 23:50 build-windows.md
+-rw-r--r--   1 martinpettersson  staff    3605 Dec 29 23:50 README.md
+-rw-r--r--   1 martinpettersson  staff    3272 Dec 29 23:50 bitcoin_logo_doxygen.png
+-rw-r--r--   1 martinpettersson  staff    3213 Dec 29 23:50 build-osx.md
+-rw-r--r--   1 martinpettersson  staff    3162 Dec 29 23:50 shared-libraries.md
+-rw-r--r--   1 martinpettersson  staff    2438 Dec 29 23:50 dnsseed-policy.md
+drwxr-xr-x  63 martinpettersson  staff    2142 Dec 29 23:50 release-notes
+-rw-r--r--   1 martinpettersson  staff    2122 Dec 29 23:50 travis-ci.md
+-rw-r--r--   1 martinpettersson  staff    1867 Dec 29 23:50 files.md
+-rw-r--r--   1 martinpettersson  staff    1746 Dec 29 23:50 fuzzing.md
+-rw-r--r--   1 martinpettersson  staff    1551 Dec 29 23:50 reduce-traffic.md
+-rw-r--r--   1 martinpettersson  staff    1229 Dec 29 23:50 benchmarking.md
+drwxr-xr-x  34 martinpettersson  staff    1156 Dec 29 23:50 gitian-building
+-rw-r--r--   1 martinpettersson  staff     862 Dec 29 23:50 README_windows.txt
+drwxr-xr-x   7 martinpettersson  staff     238 Dec 29 23:50 man
+-rw-r--r--   1 martinpettersson  staff     145 Dec 29 23:50 assets-attribution.md
+
+./doc/release-notes:
+total 936
+-rw-r--r--  1 martinpettersson  staff  46741 Dec 29 23:50 release-notes-0.12.0.md
+-rw-r--r--  1 martinpettersson  staff  45375 Dec 29 23:50 release-notes-0.13.0.md
+-rw-r--r--  1 martinpettersson  staff  36391 Dec 29 23:50 release-notes-0.10.0.md
+-rw-r--r--  1 martinpettersson  staff  22400 Dec 29 23:50 release-notes-0.11.0.md
+-rw-r--r--  1 martinpettersson  staff  21205 Dec 29 23:50 release-notes-0.13.1.md
+-rw-r--r--  1 martinpettersson  staff  14725 Dec 29 23:50 release-notes-0.9.0.md
+-rw-r--r--  1 martinpettersson  staff   9467 Dec 29 23:50 release-notes-0.11.2.md
+-rw-r--r--  1 martinpettersson  staff   7811 Dec 29 23:50 release-notes-0.12.1.md
+-rw-r--r--  1 martinpettersson  staff   7122 Dec 29 23:50 release-notes-0.10.4.md
+-rw-r--r--  1 martinpettersson  staff   6675 Dec 29 23:50 release-notes-0.11.1.md
+-rw-r--r--  1 martinpettersson  staff   6533 Dec 29 23:50 release-notes-0.10.3.md
+-rw-r--r--  1 martinpettersson  staff   6501 Dec 29 23:50 release-notes-0.9.2.1.md
+-rw-r--r--  1 martinpettersson  staff   6485 Dec 29 23:50 release-notes-0.9.2.md
+-rw-r--r--  1 martinpettersson  staff   5892 Dec 29 23:50 release-notes-0.7.0.md
+-rw-r--r--  1 martinpettersson  staff   5141 Dec 29 23:50 release-notes-0.10.1.md
+-rw-r--r--  1 martinpettersson  staff   4954 Dec 29 23:50 release-notes-0.8.0.md
+-rw-r--r--  1 martinpettersson  staff   4541 Dec 29 23:50 release-notes-0.6.0.md
+-rw-r--r--  1 martinpettersson  staff   4464 Dec 29 23:50 release-notes-0.8.2.md
+-rw-r--r--  1 martinpettersson  staff   3805 Dec 29 23:50 release-notes-0.7.1.md
+-rw-r--r--  1 martinpettersson  staff   3718 Dec 29 23:50 release-notes-0.5.0.md
+-rw-r--r--  1 martinpettersson  staff   3470 Dec 29 23:50 release-notes-0.4.0.md
+-rw-r--r--  1 martinpettersson  staff   3364 Dec 29 23:50 release-notes-0.9.3.md
+-rw-r--r--  1 martinpettersson  staff   3080 Dec 29 23:50 release-notes-0.9.4.md
+-rw-r--r--  1 martinpettersson  staff   2922 Dec 29 23:50 release-notes-0.10.2.md
+-rw-r--r--  1 martinpettersson  staff   2782 Dec 29 23:50 release-notes-0.5.3.md
+-rw-r--r--  1 martinpettersson  staff   2644 Dec 29 23:50 release-notes-0.8.4.md
+-rw-r--r--  1 martinpettersson  staff   2518 Dec 29 23:50 release-notes-0.5.5.md
+-rw-r--r--  1 martinpettersson  staff   2502 Dec 29 23:50 release-notes-0.4.6.md
+-rw-r--r--  1 martinpettersson  staff   2477 Dec 29 23:50 release-notes-0.8.6.md
+-rw-r--r--  1 martinpettersson  staff   2441 Dec 29 23:50 release-notes-0.7.2.md
+-rw-r--r--  1 martinpettersson  staff   2223 Dec 29 23:50 release-notes-0.4.1.md
+-rw-r--r--  1 martinpettersson  staff   2173 Dec 29 23:50 release-notes-0.5.4.md
+-rw-r--r--  1 martinpettersson  staff   2135 Dec 29 23:50 release-notes-0.9.5.md
+-rw-r--r--  1 martinpettersson  staff   1943 Dec 29 23:50 release-notes-0.9.1.md
+-rw-r--r--  1 martinpettersson  staff   1725 Dec 29 23:50 release-notes-0.6.2.md
+-rw-r--r--  1 martinpettersson  staff   1681 Dec 29 23:50 release-notes-0.4.4.md
+-rw-r--r--  1 martinpettersson  staff   1626 Dec 29 23:50 release-notes-0.5.1.md
+-rw-r--r--  1 martinpettersson  staff   1483 Dec 29 23:50 release-notes-0.8.5.md
+-rw-r--r--  1 martinpettersson  staff   1415 Dec 29 23:50 release-notes-0.3.13.md
+-rw-r--r--  1 martinpettersson  staff   1412 Dec 29 23:50 release-notes-0.3.24.md
+-rw-r--r--  1 martinpettersson  staff   1378 Dec 29 23:50 release-notes-0.5.2.md
+-rw-r--r--  1 martinpettersson  staff   1272 Dec 29 23:50 release-notes-0.3.21.md
+-rw-r--r--  1 martinpettersson  staff   1199 Dec 29 23:50 release-notes-0.4.3.md
+-rw-r--r--  1 martinpettersson  staff   1034 Dec 29 23:50 release-notes-0.6.3.md
+-rw-r--r--  1 martinpettersson  staff   1018 Dec 29 23:50 release-notes-0.3.22.md
+-rw-r--r--  1 martinpettersson  staff    998 Dec 29 23:50 release-notes-0.3.20.md
+-rw-r--r--  1 martinpettersson  staff    883 Dec 29 23:50 release-notes-0.8.1.md
+-rw-r--r--  1 martinpettersson  staff    861 Dec 29 23:50 release-notes-0.3.19.md
+-rw-r--r--  1 martinpettersson  staff    811 Dec 29 23:50 release-notes-0.3.12.md
+-rw-r--r--  1 martinpettersson  staff    776 Dec 29 23:50 release-notes-0.3.23.md
+-rw-r--r--  1 martinpettersson  staff    694 Dec 29 23:50 release-notes-0.3.20.2.md
+-rw-r--r--  1 martinpettersson  staff    585 Dec 29 23:50 release-notes-0.8.3.md
+-rw-r--r--  1 martinpettersson  staff    499 Dec 29 23:50 release-notes-0.3.17.md
+-rw-r--r--  1 martinpettersson  staff    495 Dec 29 23:50 release-notes-0.3.18.md
+-rw-r--r--  1 martinpettersson  staff    385 Dec 29 23:50 release-notes-0.3.15.md
+-rw-r--r--  1 martinpettersson  staff    332 Dec 29 23:50 release-notes-0.3.14.md
+-rw-r--r--  1 martinpettersson  staff     43 Dec 29 23:50 release-notes-0.3.20.1.md
+-rw-r--r--  1 martinpettersson  staff     43 Dec 29 23:50 release-notes-0.4.2.md
+-rw-r--r--  1 martinpettersson  staff     43 Dec 29 23:50 release-notes-0.4.5.md
+-rw-r--r--  1 martinpettersson  staff     16 Dec 29 23:50 release-notes-0.3.16.md
+-rw-r--r--  1 martinpettersson  staff     16 Dec 29 23:50 release-notes-0.6.1.md
+
+./doc/gitian-building:
+total 2504
+-rw-r--r--  1 martinpettersson  staff  181681 Dec 29 23:50 create_vm_storage_physical_hard_disk.png
+-rw-r--r--  1 martinpettersson  staff  170503 Dec 29 23:50 create_vm_hard_disk_file_type.png
+-rw-r--r--  1 martinpettersson  staff  123400 Dec 29 23:50 create_vm_hard_disk.png
+-rw-r--r--  1 martinpettersson  staff  119839 Dec 29 23:50 create_new_vm.png
+-rw-r--r--  1 martinpettersson  staff  111942 Dec 29 23:50 create_vm_file_location_size.png
+-rw-r--r--  1 martinpettersson  staff  110818 Dec 29 23:50 debian_install_1_boot_menu.png
+-rw-r--r--  1 martinpettersson  staff   72785 Dec 29 23:50 select_startup_disk.png
+-rw-r--r--  1 martinpettersson  staff   72185 Dec 29 23:50 network_settings.png
+-rw-r--r--  1 martinpettersson  staff   44052 Dec 29 23:50 port_forwarding_rules.png
+-rw-r--r--  1 martinpettersson  staff   22158 Dec 29 23:50 create_vm_memsize.png
+-rw-r--r--  1 martinpettersson  staff   13131 Dec 29 23:50 debian_install_2_select_a_language.png
+-rw-r--r--  1 martinpettersson  staff   11876 Dec 29 23:50 debian_install_6a_set_up_root_password.png
+-rw-r--r--  1 martinpettersson  staff   11134 Dec 29 23:50 debian_install_16_choose_a_mirror.png
+-rw-r--r--  1 martinpettersson  staff   10794 Dec 29 23:50 debian_install_14_finish.png
+-rw-r--r--  1 martinpettersson  staff   10388 Dec 29 23:50 debian_install_3_select_location.png
+-rw-r--r--  1 martinpettersson  staff   10224 Dec 29 23:50 debian_install_4_configure_keyboard.png
+-rw-r--r--  1 martinpettersson  staff    9784 Dec 29 23:50 debian_install_20_install_grub.png
+-rw-r--r--  1 martinpettersson  staff    9511 Dec 29 23:50 debian_install_11_partition_disks.png
+-rw-r--r--  1 martinpettersson  staff    8878 Dec 29 23:50 debian_install_21_install_grub_bootloader.png
+-rw-r--r--  1 martinpettersson  staff    8790 Dec 29 23:50 debian_install_15_write_changes.png
+-rw-r--r--  1 martinpettersson  staff    8767 Dec 29 23:50 debian_install_19_software_selection.png
+-rw-r--r--  1 martinpettersson  staff    8407 Dec 29 23:50 debian_install_7_set_up_user_fullname.png
+-rw-r--r--  1 martinpettersson  staff    7892 Dec 29 23:50 debian_install_10_configure_clock.png
+-rw-r--r--  1 martinpettersson  staff    7612 Dec 29 23:50 debian_install_5_configure_the_network.png
+-rw-r--r--  1 martinpettersson  staff    7582 Dec 29 23:50 debian_install_18_proxy_settings.png
+-rw-r--r--  1 martinpettersson  staff    7058 Dec 29 23:50 debian_install_8_set_up_username.png
+-rw-r--r--  1 martinpettersson  staff    7028 Dec 29 23:50 debian_root_login.png
+-rw-r--r--  1 martinpettersson  staff    6964 Dec 29 23:50 debian_install_22_finish_installation.png
+-rw-r--r--  1 martinpettersson  staff    6613 Dec 29 23:50 debian_install_12_choose_disk.png
+-rw-r--r--  1 martinpettersson  staff    6526 Dec 29 23:50 debian_install_6_domain_name.png
+-rw-r--r--  1 martinpettersson  staff    6322 Dec 29 23:50 debian_install_9_user_password.png
+-rw-r--r--  1 martinpettersson  staff    3350 Dec 29 23:50 all_files_in_one_partition.png
+
+./doc/man:
+total 80
+-rw-r--r--  1 martinpettersson  staff  12610 Dec 29 23:50 bitcoin-qt.1
+-rw-r--r--  1 martinpettersson  staff  12221 Dec 29 23:50 bitcoind.1
+-rw-r--r--  1 martinpettersson  staff   2389 Dec 29 23:50 bitcoin-tx.1
+-rw-r--r--  1 martinpettersson  staff   2156 Dec 29 23:50 bitcoin-cli.1
+-rw-r--r--  1 martinpettersson  staff     66 Dec 29 23:50 Makefile.am
+
+./contrib:
+total 80
+-rwxr-xr-x   1 martinpettersson  staff  10673 Dec 29 23:50 gitian-build.sh
+-rw-r--r--   1 martinpettersson  staff   4749 Dec 29 23:50 bitcoin-cli.bash-completion
+-rw-r--r--   1 martinpettersson  staff   1995 Dec 29 23:50 README.md
+-rw-r--r--   1 martinpettersson  staff   1657 Dec 29 23:50 bitcoin-tx.bash-completion
+-rw-r--r--   1 martinpettersson  staff   1597 Dec 29 23:50 bitcoind.bash-completion
+-rwxr-xr-x   1 martinpettersson  staff   1569 Dec 29 23:50 tidy_datadir.sh
+drwxr-xr-x  26 martinpettersson  staff    884 Dec 29 23:50 debian
+drwxr-xr-x  25 martinpettersson  staff    850 Dec 29 23:50 gitian-keys
+-rw-r--r--   1 martinpettersson  staff    756 Dec 29 23:50 bitcoin-qt.pro
+drwxr-xr-x  16 martinpettersson  staff    544 Dec 29 23:50 devtools
+drwxr-xr-x  11 martinpettersson  staff    374 Dec 29 23:50 macdeploy
+drwxr-xr-x   9 martinpettersson  staff    306 Dec 29 23:50 init
+drwxr-xr-x   9 martinpettersson  staff    306 Dec 29 23:50 verify-commits
+drwxr-xr-x   8 martinpettersson  staff    272 Dec 29 23:50 gitian-descriptors
+drwxr-xr-x   8 martinpettersson  staff    272 Dec 29 23:50 rpm
+drwxr-xr-x   7 martinpettersson  staff    238 Dec 29 23:50 seeds
+drwxr-xr-x   6 martinpettersson  staff    204 Dec 29 23:50 linearize
+drwxr-xr-x   5 martinpettersson  staff    170 Dec 29 23:50 testgen
+drwxr-xr-x   4 martinpettersson  staff    136 Dec 29 23:50 qos
+drwxr-xr-x   4 martinpettersson  staff    136 Dec 29 23:50 verifybinaries
+drwxr-xr-x   3 martinpettersson  staff    102 Dec 29 23:50 zmq
+
+./contrib/debian:
+total 200
+-rw-r--r--  1 martinpettersson  staff  14761 Dec 29 23:50 changelog
+-rw-r--r--  1 martinpettersson  staff   5202 Dec 29 23:50 copyright
+-rw-r--r--  1 martinpettersson  staff   2805 Dec 29 23:50 control
+-rwxr-xr-x  1 martinpettersson  staff    620 Dec 29 23:50 rules
+-rw-r--r--  1 martinpettersson  staff    607 Dec 29 23:50 README.md
+-rw-r--r--  1 martinpettersson  staff    412 Dec 29 23:50 bitcoin-qt.desktop
+-rw-r--r--  1 martinpettersson  staff    273 Dec 29 23:50 bitcoin-qt.install
+-rw-r--r--  1 martinpettersson  staff    268 Dec 29 23:50 watch
+-rw-r--r--  1 martinpettersson  staff    150 Dec 29 23:50 bitcoin-qt.protocol
+drwxr-xr-x  4 martinpettersson  staff    136 Dec 29 23:50 patches
+-rw-r--r--  1 martinpettersson  staff    107 Dec 29 23:50 bitcoin-qt.lintian-overrides
+-rw-r--r--  1 martinpettersson  staff    105 Dec 29 23:50 bitcoind.lintian-overrides
+drwxr-xr-x  3 martinpettersson  staff    102 Dec 29 23:50 examples
+-rw-r--r--  1 martinpettersson  staff    102 Dec 29 23:50 gbp.conf
+drwxr-xr-x  3 martinpettersson  staff    102 Dec 29 23:50 source
+-rw-r--r--  1 martinpettersson  staff     90 Dec 29 23:50 bitcoind.bash-completion
+-rw-r--r--  1 martinpettersson  staff     65 Dec 29 23:50 bitcoind.install
+-rw-r--r--  1 martinpettersson  staff     46 Dec 29 23:50 bitcoin-tx.bash-completion
+-rw-r--r--  1 martinpettersson  staff     41 Dec 29 23:50 bitcoind.manpages
+-rw-r--r--  1 martinpettersson  staff     33 Dec 29 23:50 bitcoin-tx.install
+-rw-r--r--  1 martinpettersson  staff     29 Dec 29 23:50 bitcoind.examples
+-rw-r--r--  1 martinpettersson  staff     21 Dec 29 23:50 bitcoin-qt.manpages
+-rw-r--r--  1 martinpettersson  staff     21 Dec 29 23:50 bitcoin-tx.manpages
+-rw-r--r--  1 martinpettersson  staff      2 Dec 29 23:50 compat
+
+./contrib/debian/patches:
+total 16
+-rw-r--r--  1 martinpettersson  staff  137 Dec 29 23:50 README
+-rw-r--r--  1 martinpettersson  staff    1 Dec 29 23:50 series
+
+./contrib/debian/examples:
+total 16
+-rw-r--r--  1 martinpettersson  staff  4617 Dec 29 23:50 bitcoin.conf
+
+./contrib/debian/source:
+total 8
+-rw-r--r--  1 martinpettersson  staff  12 Dec 29 23:50 format
+
+./contrib/gitian-keys:
+total 784
+-rw-r--r--  1 martinpettersson  staff  137597 Dec 29 23:50 sipa-key.pgp
+-rw-r--r--  1 martinpettersson  staff  123372 Dec 29 23:50 petertodd-key.pgp
+-rw-r--r--  1 martinpettersson  staff   10324 Dec 29 23:50 bluematt-key.pgp
+-rw-r--r--  1 martinpettersson  staff   10205 Dec 29 23:50 erkmos.pgp
+-rw-r--r--  1 martinpettersson  staff    8288 Dec 29 23:50 wtogami-key.pgp
+-rw-r--r--  1 martinpettersson  staff    6974 Dec 29 23:50 jonasschnelli-key.pgp
+-rw-r--r--  1 martinpettersson  staff    6596 Dec 29 23:50 jl2012-key.pgp
+-rw-r--r--  1 martinpettersson  staff    6518 Dec 29 23:50 luke-jr-key.pgp
+-rw-r--r--  1 martinpettersson  staff    4989 Dec 29 23:50 prab-key.pgp
+-rw-r--r--  1 martinpettersson  staff    4916 Dec 29 23:50 btcdrak-key.pgp
+-rw-r--r--  1 martinpettersson  staff    4257 Dec 29 23:50 marcofalke-key.pgp
+-rw-r--r--  1 martinpettersson  staff    3856 Dec 29 23:50 fanquake-key.pgp
+-rw-r--r--  1 martinpettersson  staff    3608 Dec 29 23:50 michagogo-key.pgp
+-rw-r--r--  1 martinpettersson  staff    3121 Dec 29 23:50 cfields-key.pgp
+-rw-r--r--  1 martinpettersson  staff    3112 Dec 29 23:50 achow101-key.pgp
+-rw-r--r--  1 martinpettersson  staff    2230 Dec 29 23:50 cdecker-key.pgp
+-rw-r--r--  1 martinpettersson  staff    2213 Dec 29 23:50 devrandom-key.pgp
+-rw-r--r--  1 martinpettersson  staff    1993 Dec 29 23:50 aschildbach-key.pgp
+-rw-r--r--  1 martinpettersson  staff    1715 Dec 29 23:50 centaur1-key.pgp
+-rw-r--r--  1 martinpettersson  staff    1713 Dec 29 23:50 laanwj-key.pgp
+-rw-r--r--  1 martinpettersson  staff    1554 Dec 29 23:50 tcatm-key.pgp
+-rw-r--r--  1 martinpettersson  staff    1176 Dec 29 23:50 gavinandresen-key.pgp
+-rw-r--r--  1 martinpettersson  staff     388 Dec 29 23:50 README.md
+
+./contrib/devtools:
+total 216
+-rwxr-xr-x  1 martinpettersson  staff  22371 Dec 29 23:50 copyright_header.py
+-rwxr-xr-x  1 martinpettersson  staff  10864 Dec 29 23:50 github-merge.py
+-rwxr-xr-x  1 martinpettersson  staff   8216 Dec 29 23:50 security-check.py
+-rwxr-xr-x  1 martinpettersson  staff   7584 Dec 29 23:50 update-translations.py
+-rw-r--r--  1 martinpettersson  staff   6775 Dec 29 23:50 README.md
+-rwxr-xr-x  1 martinpettersson  staff   6194 Dec 29 23:50 symbol-check.py
+-rwxr-xr-x  1 martinpettersson  staff   6192 Dec 29 23:50 clang-format-diff.py
+-rwxr-xr-x  1 martinpettersson  staff   3392 Dec 29 23:50 optimize-pngs.py
+-rwxr-xr-x  1 martinpettersson  staff   2655 Dec 29 23:50 test-security-check.py
+-rwxr-xr-x  1 martinpettersson  staff   2130 Dec 29 23:50 clang-format.py
+-rwxr-xr-x  1 martinpettersson  staff   1992 Dec 29 23:50 git-subtree-check.sh
+-rwxr-xr-x  1 martinpettersson  staff   1820 Dec 29 23:50 check-doc.py
+-rwxr-xr-x  1 martinpettersson  staff   1061 Dec 29 23:50 gen-manpages.sh
+-rw-r--r--  1 martinpettersson  staff    353 Dec 29 23:50 split-debug.sh.in
+
+./contrib/macdeploy:
+total 208
+-rwxr-xr-x  1 martinpettersson  staff  36998 Dec 29 23:50 macdeployqtplus
+-rw-r--r--  1 martinpettersson  staff  35147 Dec 29 23:50 LICENSE
+-rwxr-xr-x  1 martinpettersson  staff   3774 Dec 29 23:50 custom_dsstore.py
+-rw-r--r--  1 martinpettersson  staff   1693 Dec 29 23:50 background.svg
+-rwxr-xr-x  1 martinpettersson  staff   1525 Dec 29 23:50 detached-sig-create.sh
+-rwxr-xr-x  1 martinpettersson  staff   1418 Dec 29 23:50 detached-sig-apply.sh
+-rwxr-xr-x  1 martinpettersson  staff   1203 Dec 29 23:50 extract-osx-sdk.sh
+-rw-r--r--  1 martinpettersson  staff    729 Dec 29 23:50 fancy.plist
+-rw-r--r--  1 martinpettersson  staff    463 Dec 29 23:50 README.md
+
+./contrib/init:
+total 56
+-rw-r--r--  1 martinpettersson  staff  2703 Dec 29 23:50 bitcoind.openrc
+-rw-r--r--  1 martinpettersson  staff  2177 Dec 29 23:50 bitcoind.conf
+-rw-r--r--  1 martinpettersson  staff  1320 Dec 29 23:50 bitcoind.init
+-rw-r--r--  1 martinpettersson  staff  1080 Dec 29 23:50 bitcoind.openrcconf
+-rw-r--r--  1 martinpettersson  staff   467 Dec 29 23:50 bitcoind.service
+-rw-r--r--  1 martinpettersson  staff   394 Dec 29 23:50 org.bitcoin.bitcoind.plist
+-rw-r--r--  1 martinpettersson  staff   312 Dec 29 23:50 README.md
+
+./contrib/verify-commits:
+total 48
+-rwxr-xr-x  1 martinpettersson  staff  1585 Dec 29 23:50 verify-commits.sh
+-rw-r--r--  1 martinpettersson  staff  1149 Dec 29 23:50 README.md
+-rwxr-xr-x  1 martinpettersson  staff  1101 Dec 29 23:50 gpg.sh
+-rwxr-xr-x  1 martinpettersson  staff   632 Dec 29 23:50 pre-push-hook.sh
+-rw-r--r--  1 martinpettersson  staff   164 Dec 29 23:50 trusted-keys
+-rw-r--r--  1 martinpettersson  staff    41 Dec 29 23:50 trusted-git-root
+-rw-r--r--  1 martinpettersson  staff     0 Dec 29 23:50 allow-revsig-commits
+
+./contrib/gitian-descriptors:
+total 72
+-rw-r--r--  1 martinpettersson  staff  6539 Dec 29 23:50 gitian-win.yml
+-rw-r--r--  1 martinpettersson  staff  6441 Dec 29 23:50 gitian-linux.yml
+-rw-r--r--  1 martinpettersson  staff  5275 Dec 29 23:50 gitian-osx.yml
+-rw-r--r--  1 martinpettersson  staff  2575 Dec 29 23:50 README.md
+-rw-r--r--  1 martinpettersson  staff  1224 Dec 29 23:50 gitian-win-signer.yml
+-rw-r--r--  1 martinpettersson  staff  1217 Dec 29 23:50 gitian-osx-signer.yml
+
+./contrib/rpm:
+total 88
+-rw-r--r--  1 martinpettersson  staff  15264 Dec 29 23:50 bitcoin.spec
+-rw-r--r--  1 martinpettersson  staff   8273 Dec 29 23:50 README.md
+-rw-r--r--  1 martinpettersson  staff   2965 Dec 29 23:50 bitcoin.if
+-rw-r--r--  1 martinpettersson  staff   2091 Dec 29 23:50 bitcoin.te
+-rw-r--r--  1 martinpettersson  staff   1147 Dec 29 23:50 bitcoin-0.12.0-libressl.patch
+-rw-r--r--  1 martinpettersson  staff    458 Dec 29 23:50 bitcoin.fc
+
+./contrib/seeds:
+total 96
+-rw-r--r--  1 martinpettersson  staff  23593 Dec 29 23:50 nodes_main.txt
+-rwxr-xr-x  1 martinpettersson  staff   5765 Dec 29 23:50 makeseeds.py
+-rwxr-xr-x  1 martinpettersson  staff   4382 Dec 29 23:50 generate-seeds.py
+-rw-r--r--  1 martinpettersson  staff    470 Dec 29 23:50 README.md
+-rw-r--r--  1 martinpettersson  staff    216 Dec 29 23:50 nodes_test.txt
+
+./contrib/linearize:
+total 48
+-rwxr-xr-x  1 martinpettersson  staff  8831 Dec 29 23:50 linearize-data.py
+-rwxr-xr-x  1 martinpettersson  staff  3041 Dec 29 23:50 linearize-hashes.py
+-rw-r--r--  1 martinpettersson  staff  1096 Dec 29 23:50 README.md
+-rw-r--r--  1 martinpettersson  staff   724 Dec 29 23:50 example-linearize.cfg
+
+./contrib/testgen:
+total 32
+-rwxr-xr-x  1 martinpettersson  staff  4529 Dec 29 23:50 gen_base58_test_vectors.py
+-rw-r--r--  1 martinpettersson  staff  3004 Dec 29 23:50 base58.py
+-rw-r--r--  1 martinpettersson  staff   270 Dec 29 23:50 README.md
+
+./contrib/qos:
+total 16
+-rw-r--r--  1 martinpettersson  staff  1857 Dec 29 23:50 tc.sh
+-rw-r--r--  1 martinpettersson  staff   448 Dec 29 23:50 README.md
+
+./contrib/verifybinaries:
+total 16
+-rwxr-xr-x  1 martinpettersson  staff  3598 Dec 29 23:50 verify.sh
+-rw-r--r--  1 martinpettersson  staff  1188 Dec 29 23:50 README.md
+
+./contrib/zmq:
+total 8
+-rwxr-xr-x  1 martinpettersson  staff  1425 Dec 29 23:50 zmq_sub.py
+
+./depends:
+total 240
+-rwxr-xr-x   1 martinpettersson  staff  43765 Dec 29 23:50 config.guess
+-rwxr-xr-x   1 martinpettersson  staff  36171 Dec 29 23:50 config.sub
+-rw-r--r--   1 martinpettersson  staff  11821 Dec 29 23:50 funcs.mk
+-rw-r--r--   1 martinpettersson  staff   6583 Dec 29 23:50 Makefile
+-rw-r--r--   1 martinpettersson  staff   4868 Dec 29 23:50 packages.md
+-rw-r--r--   1 martinpettersson  staff   2536 Dec 29 23:50 description.md
+-rw-r--r--   1 martinpettersson  staff   2188 Dec 29 23:50 README.md
+-rw-r--r--   1 martinpettersson  staff   2179 Dec 29 23:50 config.site.in
+drwxr-xr-x  34 martinpettersson  staff   1156 Dec 29 23:50 packages
+drwxr-xr-x   8 martinpettersson  staff    272 Dec 29 23:50 patches
+drwxr-xr-x   6 martinpettersson  staff    204 Dec 29 23:50 hosts
+drwxr-xr-x   5 martinpettersson  staff    170 Dec 29 23:50 builders
+
+./depends/packages:
+total 272
+-rw-r--r--  1 martinpettersson  staff  9842 Dec 29 23:50 qt.mk
+-rw-r--r--  1 martinpettersson  staff  3404 Dec 29 23:50 native_cctools.mk
+-rw-r--r--  1 martinpettersson  staff  2779 Dec 29 23:50 openssl.mk
+-rw-r--r--  1 martinpettersson  staff  2027 Dec 29 23:50 boost.mk
+-rw-r--r--  1 martinpettersson  staff  1266 Dec 29 23:50 miniupnpc.mk
+-rw-r--r--  1 martinpettersson  staff  1179 Dec 29 23:50 zeromq.mk
+-rw-r--r--  1 martinpettersson  staff  1093 Dec 29 23:50 bdb.mk
+-rw-r--r--  1 martinpettersson  staff  1033 Dec 29 23:50 libxcb.mk
+-rw-r--r--  1 martinpettersson  staff   975 Dec 29 23:50 libevent.mk
+-rw-r--r--  1 martinpettersson  staff   868 Dec 29 23:50 protobuf.mk
+-rw-r--r--  1 martinpettersson  staff   806 Dec 29 23:50 dbus.mk
+-rw-r--r--  1 martinpettersson  staff   793 Dec 29 23:50 native_mac_alias.mk
+-rw-r--r--  1 martinpettersson  staff   769 Dec 29 23:50 native_cdrkit.mk
+-rw-r--r--  1 martinpettersson  staff   742 Dec 29 23:50 native_biplist.mk
+-rw-r--r--  1 martinpettersson  staff   710 Dec 29 23:50 native_ds_store.mk
+-rw-r--r--  1 martinpettersson  staff   680 Dec 29 23:50 libSM.mk
+-rw-r--r--  1 martinpettersson  staff   670 Dec 29 23:50 libICE.mk
+-rw-r--r--  1 martinpettersson  staff   667 Dec 29 23:50 xcb_proto.mk
+-rw-r--r--  1 martinpettersson  staff   658 Dec 29 23:50 native_protobuf.mk
+-rw-r--r--  1 martinpettersson  staff   647 Dec 29 23:50 libX11.mk
+-rw-r--r--  1 martinpettersson  staff   613 Dec 29 23:50 freetype.mk
+-rw-r--r--  1 martinpettersson  staff   613 Dec 29 23:50 libXau.mk
+-rw-r--r--  1 martinpettersson  staff   610 Dec 29 23:50 native_libdmg-hfsplus.mk
+-rw-r--r--  1 martinpettersson  staff   602 Dec 29 23:50 fontconfig.mk
+-rw-r--r--  1 martinpettersson  staff   596 Dec 29 23:50 libXext.mk
+-rw-r--r--  1 martinpettersson  staff   596 Dec 29 23:50 packages.mk
+-rw-r--r--  1 martinpettersson  staff   592 Dec 29 23:50 qrencode.mk
+-rw-r--r--  1 martinpettersson  staff   580 Dec 29 23:50 xtrans.mk
+-rw-r--r--  1 martinpettersson  staff   564 Dec 29 23:50 native_ccache.mk
+-rw-r--r--  1 martinpettersson  staff   560 Dec 29 23:50 expat.mk
+-rw-r--r--  1 martinpettersson  staff   542 Dec 29 23:50 xextproto.mk
+-rw-r--r--  1 martinpettersson  staff   540 Dec 29 23:50 xproto.mk
+
+./depends/patches:
+total 0
+drwxr-xr-x  8 martinpettersson  staff  272 Dec 29 23:50 qt
+drwxr-xr-x  4 martinpettersson  staff  136 Dec 29 23:50 libevent
+drwxr-xr-x  4 martinpettersson  staff  136 Dec 29 23:50 zeromq
+drwxr-xr-x  3 martinpettersson  staff  102 Dec 29 23:50 native_biplist
+drwxr-xr-x  3 martinpettersson  staff  102 Dec 29 23:50 native_cdrkit
+drwxr-xr-x  3 martinpettersson  staff  102 Dec 29 23:50 native_mac_alias
+
+./depends/patches/qt:
+total 48
+-rw-r--r--  1 martinpettersson  staff  2260 Dec 29 23:50 pidlist_absolute.patch
+-rw-r--r--  1 martinpettersson  staff  2170 Dec 29 23:50 fix-xcb-include-order.patch
+-rw-r--r--  1 martinpettersson  staff  1718 Dec 29 23:50 mingw-uuidof.patch
+-rw-r--r--  1 martinpettersson  staff  1190 Dec 29 23:50 configure-xcoderun.patch
+-rw-r--r--  1 martinpettersson  staff  1078 Dec 29 23:50 mac-qmake.conf
+-rw-r--r--  1 martinpettersson  staff   385 Dec 29 23:50 fix_qt_pkgconfig.patch
+
+./depends/patches/libevent:
+total 16
+-rw-r--r--  1 martinpettersson  staff  693 Dec 29 23:50 reuseaddr.patch
+-rw-r--r--  1 martinpettersson  staff  594 Dec 29 23:50 libevent-2-fixes.patch
+
+./depends/patches/zeromq:
+total 16
+-rw-r--r--  1 martinpettersson  staff  673 Dec 29 23:50 9114d3957725acd34aa8b8d011585812f3369411.patch
+-rw-r--r--  1 martinpettersson  staff  641 Dec 29 23:50 9e6745c12e0b100cd38acecc16ce7db02905e27c.patch
+
+./depends/patches/native_biplist:
+total 8
+-rw-r--r--  1 martinpettersson  staff  1269 Dec 29 23:50 sorted_list.patch
+
+./depends/patches/native_cdrkit:
+total 8
+-rw-r--r--  1 martinpettersson  staff  2100 Dec 29 23:50 cdrkit-deterministic.patch
+
+./depends/patches/native_mac_alias:
+total 8
+-rw-r--r--  1 martinpettersson  staff  3565 Dec 29 23:50 python3.patch
+
+./depends/hosts:
+total 32
+-rw-r--r--  1 martinpettersson  staff  1108 Dec 29 23:50 default.mk
+-rw-r--r--  1 martinpettersson  staff   739 Dec 29 23:50 linux.mk
+-rw-r--r--  1 martinpettersson  staff   621 Dec 29 23:50 darwin.mk
+-rw-r--r--  1 martinpettersson  staff   275 Dec 29 23:50 mingw32.mk
+
+./depends/builders:
+total 24
+-rw-r--r--  1 martinpettersson  staff  1084 Dec 29 23:50 darwin.mk
+-rw-r--r--  1 martinpettersson  staff   779 Dec 29 23:50 default.mk
+-rw-r--r--  1 martinpettersson  staff   157 Dec 29 23:50 linux.mk
+
+./share:
+total 24
+-rw-r--r--   1 martinpettersson  staff  6964 Dec 29 23:50 setup.nsi.in
+-rwxr-xr-x   1 martinpettersson  staff  1412 Dec 29 23:50 genbuild.sh
+drwxr-xr-x  15 martinpettersson  staff   510 Dec 29 23:50 pixmaps
+drwxr-xr-x   5 martinpettersson  staff   170 Dec 29 23:50 certs
+drwxr-xr-x   4 martinpettersson  staff   136 Dec 29 23:50 qt
+drwxr-xr-x   4 martinpettersson  staff   136 Dec 29 23:50 rpcuser
+
+./share/pixmaps:
+total 1000
+-rw-r--r--  1 martinpettersson  staff  154542 Dec 29 23:50 nsis-wizard.bmp
+-rw-r--r--  1 martinpettersson  staff  135455 Dec 29 23:50 bitcoin256.xpm
+-rw-r--r--  1 martinpettersson  staff   68756 Dec 29 23:50 bitcoin.ico
+-rw-r--r--  1 martinpettersson  staff   37391 Dec 29 23:50 bitcoin128.xpm
+-rw-r--r--  1 martinpettersson  staff   28182 Dec 29 23:50 bitcoin256.png
+-rw-r--r--  1 martinpettersson  staff   25818 Dec 29 23:50 nsis-header.bmp
+-rw-r--r--  1 martinpettersson  staff   11308 Dec 29 23:50 bitcoin64.xpm
+-rw-r--r--  1 martinpettersson  staff   10639 Dec 29 23:50 bitcoin128.png
+-rw-r--r--  1 martinpettersson  staff    4592 Dec 29 23:50 bitcoin64.png
+-rw-r--r--  1 martinpettersson  staff    3916 Dec 29 23:50 bitcoin32.xpm
+-rw-r--r--  1 martinpettersson  staff    3227 Dec 29 23:50 bitcoin16.xpm
+-rw-r--r--  1 martinpettersson  staff    1982 Dec 29 23:50 bitcoin32.png
+-rw-r--r--  1 martinpettersson  staff     827 Dec 29 23:50 bitcoin16.png
+
+./share/certs:
+total 24
+-rw-r--r--  1 martinpettersson  staff  2375 Dec 29 23:50 BitcoinFoundation_Apple_Cert.pem
+-rw-r--r--  1 martinpettersson  staff  2365 Dec 29 23:50 BitcoinFoundation_Comodo_Cert.pem
+-rw-r--r--  1 martinpettersson  staff  2311 Dec 29 23:50 PrivateKeyNotes.md
+
+./share/qt:
+total 16
+-rw-r--r--  1 martinpettersson  staff  2754 Dec 29 23:50 Info.plist.in
+-rwxr-xr-x  1 martinpettersson  staff  2721 Dec 29 23:50 extract_strings_qt.py
+
+./share/rpcuser:
+total 16
+-rwxr-xr-x  1 martinpettersson  staff  1109 Dec 29 23:50 rpcuser.py
+-rw-r--r--  1 martinpettersson  staff   142 Dec 29 23:50 README.md
+
+./qa:
+total 8
+-rw-r--r--   1 martinpettersson  staff  2547 Dec 29 23:50 README.md
+drwxr-xr-x  73 martinpettersson  staff  2482 Dec 29 23:50 rpc-tests
+drwxr-xr-x   4 martinpettersson  staff   136 Dec 29 23:50 pull-tester
+
+./qa/rpc-tests:
+total 1656
+-rwxr-xr-x   1 martinpettersson  staff  92760 Dec 29 23:50 p2p-segwit.py
+-rwxr-xr-x   1 martinpettersson  staff  52731 Dec 29 23:50 p2p-fullblocktest.py
+-rwxr-xr-x   1 martinpettersson  staff  43518 Dec 29 23:50 p2p-compactblocks.py
+-rwxr-xr-x   1 martinpettersson  staff  37485 Dec 29 23:50 segwit.py
+-rwxr-xr-x   1 martinpettersson  staff  28411 Dec 29 23:50 fundrawtransaction.py
+-rwxr-xr-x   1 martinpettersson  staff  27353 Dec 29 23:50 bip68-112-113-p2p.py
+-rwxr-xr-x   1 martinpettersson  staff  25728 Dec 29 23:50 sendheaders.py
+-rwxr-xr-x   1 martinpettersson  staff  21979 Dec 29 23:50 replace-by-fee.py
+-rwxr-xr-x   1 martinpettersson  staff  18382 Dec 29 23:50 bip68-sequence.py
+-rwxr-xr-x   1 martinpettersson  staff  17167 Dec 29 23:50 importmulti.py
+-rwxr-xr-x   1 martinpettersson  staff  16758 Dec 29 23:50 wallet.py
+-rwxr-xr-x   1 martinpettersson  staff  15164 Dec 29 23:50 rest.py
+-rwxr-xr-x   1 martinpettersson  staff  15031 Dec 29 23:50 pruning.py
+-rwxr-xr-x   1 martinpettersson  staff  13629 Dec 29 23:50 decodescript.py
+-rwxr-xr-x   1 martinpettersson  staff  12656 Dec 29 23:50 smartfees.py
+-rwxr-xr-x   1 martinpettersson  staff  12411 Dec 29 23:50 p2p-acceptblock.py
+-rwxr-xr-x   1 martinpettersson  staff  10541 Dec 29 23:50 bip9-softforks.py
+-rwxr-xr-x   1 martinpettersson  staff  10344 Dec 29 23:50 mempool_packages.py
+-rwxr-xr-x   1 martinpettersson  staff  10219 Dec 29 23:50 listtransactions.py
+-rwxr-xr-x   1 martinpettersson  staff   9176 Dec 29 23:50 maxuploadtarget.py
+-rwxr-xr-x   1 martinpettersson  staff   8665 Dec 29 23:50 rawtransactions.py
+-rwxr-xr-x   1 martinpettersson  staff   8489 Dec 29 23:50 proxy_test.py
+-rwxr-xr-x   1 martinpettersson  staff   7752 Dec 29 23:50 abandonconflict.py
+-rwxr-xr-x   1 martinpettersson  staff   7549 Dec 29 23:50 txn_clone.py
+-rwxr-xr-x   1 martinpettersson  staff   7304 Dec 29 23:50 walletbackup.py
+-rwxr-xr-x   1 martinpettersson  staff   7007 Dec 29 23:50 import-rescan.py
+-rwxr-xr-x   1 martinpettersson  staff   6875 Dec 29 23:50 bipdersig-p2p.py
+-rwxr-xr-x   1 martinpettersson  staff   6836 Dec 29 23:50 p2p-versionbits-warning.py
+-rwxr-xr-x   1 martinpettersson  staff   6705 Dec 29 23:50 bip65-cltv-p2p.py
+-rwxr-xr-x   1 martinpettersson  staff   6649 Dec 29 23:50 txn_doublespend.py
+-rwxr-xr-x   1 martinpettersson  staff   6534 Dec 29 23:50 nulldummy.py
+-rwxr-xr-x   1 martinpettersson  staff   6528 Dec 29 23:50 receivedby.py
+-rwxr-xr-x   1 martinpettersson  staff   5983 Dec 29 23:50 prioritise_transaction.py
+-rwxr-xr-x   1 martinpettersson  staff   5726 Dec 29 23:50 getblocktemplate_proposals.py
+-rw-r--r--   1 martinpettersson  staff   5125 Dec 29 23:50 README.md
+-rwxr-xr-x   1 martinpettersson  staff   5061 Dec 29 23:50 importprunedfunds.py
+-rwxr-xr-x   1 martinpettersson  staff   5054 Dec 29 23:50 preciousblock.py
+-rwxr-xr-x   1 martinpettersson  staff   4853 Dec 29 23:50 httpbasics.py
+-rwxr-xr-x   1 martinpettersson  staff   4788 Dec 29 23:50 wallet-dump.py
+-rwxr-xr-x   1 martinpettersson  staff   4615 Dec 29 23:50 signrawtransactions.py
+-rwxr-xr-x   1 martinpettersson  staff   4606 Dec 29 23:50 rpcbind_test.py
+-rwxr-xr-x   1 martinpettersson  staff   4575 Dec 29 23:50 multi_rpc.py
+-rwxr-xr-x   1 martinpettersson  staff   4514 Dec 29 23:50 mempool_reorg.py
+-rwxr-xr-x   1 martinpettersson  staff   4264 Dec 29 23:50 invalidblockrequest.py
+-rwxr-xr-x   1 martinpettersson  staff   4258 Dec 29 23:50 p2p-feefilter.py
+-rwxr-xr-x   1 martinpettersson  staff   3961 Dec 29 23:50 merkle_blocks.py
+-rwxr-xr-x   1 martinpettersson  staff   3764 Dec 29 23:50 maxblocksinflight.py
+-rwxr-xr-x   1 martinpettersson  staff   3559 Dec 29 23:50 nodehandling.py
+-rwxr-xr-x   1 martinpettersson  staff   3311 Dec 29 23:50 bip65-cltv.py
+-rwxr-xr-x   1 martinpettersson  staff   3299 Dec 29 23:50 p2p-mempool.py
+-rwxr-xr-x   1 martinpettersson  staff   3264 Dec 29 23:50 zmq_test.py
+-rwxr-xr-x   1 martinpettersson  staff   3245 Dec 29 23:50 bipdersig.py
+-rwxr-xr-x   1 martinpettersson  staff   3205 Dec 29 23:50 wallet-hd.py
+-rwxr-xr-x   1 martinpettersson  staff   3169 Dec 29 23:50 mempool_resurrect_test.py
+-rwxr-xr-x   1 martinpettersson  staff   3165 Dec 29 23:50 keypool.py
+-rwxr-xr-x   1 martinpettersson  staff   3154 Dec 29 23:50 wallet-accounts.py
+-rwxr-xr-x   1 martinpettersson  staff   3077 Dec 29 23:50 invalidateblock.py
+-rwxr-xr-x   1 martinpettersson  staff   2976 Dec 29 23:50 getblocktemplate_longpoll.py
+-rwxr-xr-x   1 martinpettersson  staff   2876 Dec 29 23:50 zapwallettxes.py
+-rwxr-xr-x   1 martinpettersson  staff   2856 Dec 29 23:50 blockchain.py
+-rwxr-xr-x   1 martinpettersson  staff   2576 Dec 29 23:50 invalidtxrequest.py
+-rwxr-xr-x   1 martinpettersson  staff   2471 Dec 29 23:50 mempool_spendcoinbase.py
+-rwxr-xr-x   1 martinpettersson  staff   2255 Dec 29 23:50 forknotify.py
+-rwxr-xr-x   1 martinpettersson  staff   2205 Dec 29 23:50 getchaintips.py
+-rwxr-xr-x   1 martinpettersson  staff   2182 Dec 29 23:50 mempool_limit.py
+-rwxr-xr-x   1 martinpettersson  staff   1820 Dec 29 23:50 disablewallet.py
+-rwxr-xr-x   1 martinpettersson  staff   1439 Dec 29 23:50 signmessages.py
+-rwxr-xr-x   1 martinpettersson  staff   1421 Dec 29 23:50 reindex.py
+-rwxr-xr-x   1 martinpettersson  staff    691 Dec 29 23:50 create_cache.py
+drwxr-xr-x  18 martinpettersson  staff    612 Dec 29 23:50 test_framework
+
+./qa/rpc-tests/test_framework:
+total 416
+-rwxr-xr-x  1 martinpettersson  staff  54611 Dec 29 23:50 mininode.py
+-rw-r--r--  1 martinpettersson  staff  25989 Dec 29 23:50 script.py
+-rw-r--r--  1 martinpettersson  staff  25210 Dec 29 23:50 util.py
+-rwxr-xr-x  1 martinpettersson  staff  18852 Dec 29 23:50 comptool.py
+-rw-r--r--  1 martinpettersson  staff   8521 Dec 29 23:50 key.py
+-rwxr-xr-x  1 martinpettersson  staff   8228 Dec 29 23:50 test_framework.py
+-rw-r--r--  1 martinpettersson  staff   7579 Dec 29 23:50 authproxy.py
+-rw-r--r--  1 martinpettersson  staff   5662 Dec 29 23:50 socks5.py
+-rw-r--r--  1 martinpettersson  staff   5416 Dec 29 23:50 blockstore.py
+-rw-r--r--  1 martinpettersson  staff   5030 Dec 29 23:50 netutil.py
+-rw-r--r--  1 martinpettersson  staff   3828 Dec 29 23:50 blocktools.py
+-rw-r--r--  1 martinpettersson  staff   2965 Dec 29 23:50 coverage.py
+-rw-r--r--  1 martinpettersson  staff   2272 Dec 29 23:50 address.py
+-rw-r--r--  1 martinpettersson  staff   2022 Dec 29 23:50 siphash.py
+-rw-r--r--  1 martinpettersson  staff   1929 Dec 29 23:50 bignum.py
+-rw-r--r--  1 martinpettersson  staff      0 Dec 29 23:50 __init__.py
+
+./qa/pull-tester:
+total 32
+-rwxr-xr-x  1 martinpettersson  staff  11885 Dec 29 23:50 rpc-tests.py
+-rw-r--r--  1 martinpettersson  staff    508 Dec 29 23:50 tests_config.py.in
+
+./build-aux:
+total 0
+drwxr-xr-x  19 martinpettersson  staff  646 Dec 29 23:50 m4
+
+./build-aux/m4:
+total 304
+-rw-r--r--  1 martinpettersson  staff  20816 Dec 29 23:50 ax_pthread.m4
+-rw-r--r--  1 martinpettersson  staff  20359 Dec 29 23:50 bitcoin_qt.m4
+-rw-r--r--  1 martinpettersson  staff  13824 Dec 29 23:50 ax_cxx_compile_stdcxx.m4
+-rw-r--r--  1 martinpettersson  staff  11610 Dec 29 23:50 ax_boost_base.m4
+-rw-r--r--  1 martinpettersson  staff   7739 Dec 29 23:50 ax_gcc_func_attribute.m4
+-rw-r--r--  1 martinpettersson  staff   5971 Dec 29 23:50 ax_boost_unit_test_framework.m4
+-rw-r--r--  1 martinpettersson  staff   5154 Dec 29 23:50 ax_boost_thread.m4
+-rw-r--r--  1 martinpettersson  staff   4958 Dec 29 23:50 ax_boost_program_options.m4
+-rw-r--r--  1 martinpettersson  staff   4420 Dec 29 23:50 ax_boost_filesystem.m4
+-rw-r--r--  1 martinpettersson  staff   4390 Dec 29 23:50 ax_boost_chrono.m4
+-rw-r--r--  1 martinpettersson  staff   4219 Dec 29 23:50 ax_boost_system.m4
+-rw-r--r--  1 martinpettersson  staff   3330 Dec 29 23:50 ax_check_compile_flag.m4
+-rw-r--r--  1 martinpettersson  staff   3269 Dec 29 23:50 ax_check_preproc_flag.m4
+-rw-r--r--  1 martinpettersson  staff   3181 Dec 29 23:50 ax_check_link_flag.m4
+-rw-r--r--  1 martinpettersson  staff   2535 Dec 29 23:50 bitcoin_find_bdb48.m4
+-rw-r--r--  1 martinpettersson  staff   1252 Dec 29 23:50 l_atomic.m4
+-rw-r--r--  1 martinpettersson  staff    800 Dec 29 23:50 bitcoin_subdir_to_include.m4
